@@ -23,6 +23,46 @@
 
   <!-- RDFS -->
   <!-- Class definition -->
+ 
+  <rdfs:Class rdf:ID="RolePlayingGame">
+	   <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q160738"/>
+    <rdfs:label xml:lang="en">role playing game</rdfs:label>
+    <rdfs:label xml:lang="it">gioco di ruolo</rdfs:label>
+	   <rdfs:comment xml:lang="it">Gioco in cui i giocatori assumono il ruolo di personaggi in un ambiente immaginario</rdfs:comment>
+		  <rdfs:subClassOf rdf:resource="dbpedia:Game"/>
+  </rdfs:Class>
+ 
+  <rdfs:Class rdf:ID="PaperAndPencilGame">
+		  <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q2347716"/>
+    <rdfs:label xml:lang="en">paper and pencil game</rdfs:label>
+    <rdfs:label xml:lang="it">gioco di carta e matita</rdfs:label>
+		  <rdfs:comment xml:lang="it">Gioco in cui i giocatori assumono il ruolo di personaggi in un ambiente immaginario</rdfs:comment>
+		  <rdfs:subClassOf rdf:resource="dbpedia:Game"/>
+  </rdfs:Class>
+ 
+  <!-- Class Tabletop? Sinonimo di BoardGame -->
+  <rdfs:Class rdf:ID="TabletopGame">
+	   <owl:sameAs rdf:resource="http://dbpedia.org/ontology/BoardGame"/>
+  </rdfs:Class>
+ 
+  <rdfs:Class rdf:ID="DiceGame">
+	   <owl:equivalentClass rdf:resource="https://www.wikidata.org/wiki/Q1515156"/>
+    <rdfs:label xml:lang="en">dice game</rdfs:label>
+    <rdfs:label xml:lang="it">gioco di dadi</rdfs:label>
+	   <rdfs:comment xml:lang="en">game in which dice are the central component</rdfs:comment>
+	   <rdfs:comment xml:lang="it">gioco basato sul lancio di dadi</rdfs:comment>
+	   <rdfs:subClassOf rdf:resource="dbpedia:Game"/>
+  </rdfs:Class>
+ 
+  <!-- TODO
+	 Class RolePlayingBoardGame extends BoardGame, RolePlayingGame
+	 Class PenAndPaperRolePlayingGame extends PenAndPaperGame, RolePlayingGame
+	 Dungeons and Dragons 
+
+ 	REUSE
+ 	dbpedia:BoardGame
+ 	dbpedia:CardGame
+  -->
 
   <rdfs:Class rdf:ID="Designer">
     <rdfs:comment>Any type of designer.</rdfs:comment>
