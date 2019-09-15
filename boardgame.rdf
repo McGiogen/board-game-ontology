@@ -86,56 +86,56 @@
     <rdfs:comment></rdfs:comment>
   </rdfs:Class>
 
-  <rdfs:Class rdf:ID="2DShape">
+  <rdfs:Class rdf:ID="Shape2D">
     <rdfs:comment></rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape"/>
   </rdfs:Class>
 
-  <rdfs:Class rdf:ID="3DShape">
+  <rdfs:Class rdf:ID="Shape3D">
     <rdfs:comment></rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Circle">
     <rdfs:comment></rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#2DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Triangle">
     <rdfs:comment></rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#2DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Rectangle">
     <rdfs:comment></rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#2DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Square">
     <rdfs:comment></rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#2DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Sphere">
     <rdfs:comment></rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#3DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Pyramid">
     <rdfs:comment></rdfs:comment>
     <rdfs:comment>Parallelepipedo rettangolo</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#3DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="RectangularCuboid">
     <rdfs:comment></rdfs:comment>
     <rdfs:comment>Parallelepipedo rettangolo</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#3DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Cube">
     <rdfs:comment></rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#3DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Material">
@@ -169,13 +169,13 @@
 
   <rdfs:Class rdf:ID="Token">
     <rdfs:comment>Forma 2D con uno spessore</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#2DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape2D"/>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Board">
     <rdfs:comment>Forma 2D con uno spessore</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#2DShape"/>
+    <rdfs:subClassOf rdf:resource="#Shape2D"/>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
   </rdfs:Class>
 
@@ -268,50 +268,62 @@
   ✓ libro - foaf:Document
   -->
 
-  <rdf:Property rdf:ID="title">
+  <rdf:Property rdf:ID="Title">
     <rdfs:comment>The title of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="description">
+  <rdf:Property rdf:ID="GameDescription">
     <rdfs:comment>The description of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="publicationDate">
-    <rdfs:comment>The date of publication of the game.</rdfs:comment>
+  <rdf:Property rdf:ID="PublicationYear">
+    <rdfs:comment>The year of publication of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
   <!-- TODO dovrebbe essere un valore unico o una coppia (min-max) -->
-  <rdf:Property rdf:ID="duration">
+  <rdf:Property rdf:ID="Duration">
     <rdfs:comment>The duration of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
   <!-- TODO dovrebbe essere un valore unico o una coppia (min-max) -->
-  <rdf:Property rdf:ID="age">
+  <rdf:Property rdf:ID="Age">
     <rdfs:comment>The minimum age to play the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
   <!-- TODO dovrebbe essere un valore unico o una coppia (min-max) -->
-  <rdf:Property rdf:ID="numberOfPlayers">
+  <rdf:Property rdf:ID="NumberOfPlayers">
     <rdfs:comment>The number of players of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
   <!-- FIXME il publisher è una persona o una compagnia, publisher è una proprietà di Game -->
-  <rdf:Property rdf:ID="publisher">
+  <rdf:Property rdf:ID="HasPublisher">
     <rdfs:comment>The publisher of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="#GamePublisher"/>
+  </rdf:Property>
+  
+  <rdf:Property rdf:ID="HasArtist">
+    <rdfs:comment>The artist of the game.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Game"/>
+    <rdfs:range rdf:resource="#Artist"/>
+  </rdf:Property>
+  
+  <rdf:Property rdf:ID="HasDesigner">
+    <rdfs:comment>The designer of the game.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Game"/>
+    <rdfs:range rdf:resource="#Designer"/>
   </rdf:Property>
   
   <!--
@@ -322,127 +334,127 @@
     comment="The maximum numeric value permitted."/>
   -->
 
-  <rdf:Property rdf:ID="edition">
+  <rdf:Property rdf:ID="Edition">
     <rdfs:comment>The edition of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="family">
+  <rdf:Property rdf:ID="Family">
     <rdfs:comment>The family of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="award">
+  <rdf:Property rdf:ID="Award">
     <rdfs:comment>The award of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="dbpedia:Award"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="hasBox">
+  <rdf:Property rdf:ID="HasBox">
     <rdfs:comment>A box of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
     <rdfs:range rdf:resource="#Box"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="hasComponent">
+  <rdf:Property rdf:ID="HasComponent">
     <rdfs:comment>A component of the box.</rdfs:comment>
     <rdfs:domain rdf:resource="#Box"/>
     <rdfs:range rdf:resource="#GameComponent"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="description">
+  <rdf:Property rdf:ID="ComponentDescription">
     <rdfs:comment>The description of the component.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="hasHeight">
+  <rdf:Property rdf:ID="HasHeight">
     <rdfs:comment>Height, in millimeters.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="hasWidth">
+  <rdf:Property rdf:ID="HasWidth">
     <rdfs:comment>Width, in millimeters.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="material">
+  <rdf:Property rdf:ID="MadeOf">
     <rdfs:comment>Material used to make the component.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
     <rdfs:range rdf:resource="#Material"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="hasColour">
+  <rdf:Property rdf:ID="HasColour">
     <rdfs:comment>The main colour of the component.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
     <rdfs:range rdf:resource="#dbpedia:Colour"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="hasPhoto">
+  <rdf:Property rdf:ID="HasPhoto">
     <rdfs:comment>A photo of the component.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
     <rdfs:range rdf:resource="#dbpedia:Image"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="hasArtist">
+  <rdf:Property rdf:ID="HasArtist">
     <rdfs:comment>The creator of the component.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
     <rdfs:range rdf:resource="#Artist"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="faces">
+  <rdf:Property rdf:ID="Faces">
     <rdfs:comment>The number of faces of the dice.</rdfs:comment>
     <rdfs:domain rdf:resource="#Dice"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="hasBase">
+  <rdf:Property rdf:ID="HasBase">
     <rdfs:comment>The base of the miniature.</rdfs:comment>
     <rdfs:domain rdf:resource="#Miniature"/>
     <rdfs:range rdf:resource="#Shape2D"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="thickness">
+  <rdf:Property rdf:ID="BoardThickness">
     <rdfs:comment>The thickness of the board.</rdfs:comment>
     <rdfs:domain rdf:resource="#Board"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="thickness">
+  <rdf:Property rdf:ID="TokenThickness">
     <rdfs:comment>The thickness of the token.</rdfs:comment>
     <rdfs:domain rdf:resource="#Token"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <rdf:Property rdf:ID="paperSize">
+  <rdf:Property rdf:ID="PaperSize">
     <rdfs:comment>The paper size.</rdfs:comment>
     <rdfs:domain rdf:resource="#Paper"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="weight">
+  <rdf:Property rdf:ID="Weight">
     <rdfs:comment>The weight/grammatura of the paper.</rdfs:comment>
     <rdfs:domain rdf:resource="#Paper"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="hasLanguage">
+  <rdf:Property rdf:ID="HasLanguage">
     <rdfs:comment>The language of the text of the board.</rdfs:comment>
     <rdfs:domain rdf:resource="#Board"/>
     <rdfs:range rdf:resource="dbpedia:Language"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="language">
+  <rdf:Property rdf:ID="Language">
     <rdfs:comment>The language of the text of the book.</rdfs:comment>
     <rdfs:domain rdf:resource="#Book"/>
     <rdfs:range rdf:resource="dbpedia:Language"/>
   </rdf:Property>
   
-  <rdf:Property rdf:ID="pages">
+  <rdf:Property rdf:ID="Pages">
     <rdfs:comment>The number of the pages of the book.</rdfs:comment>
     <rdfs:domain rdf:resource="#Book"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
@@ -451,6 +463,120 @@
 
   <!-- RDF -->
 
+  <game:RolePlayingGame rdf:ID="BG000001"></game:RolePlayingGame>
 
+  <game:BoardGame rdf:ID="BG000001">
+    <game:Title>Betrayal at Baldur's Gate</game:Name>
+    <game:GameDescription>
+      Based on the award-winning Betrayal at House on the Hill board game, in Betrayal at Baldur's Gate
+      you'll return to Baldur's Gate again and again thanks to the fifty included scenarios only to discover it's never the same game twice.
+      Can you and your party survive the madness, or will you succumb to the mayhem and split (or slaughter!) the party?
+    </game:GameDescription>
+    <game:PublicationYear>2017</game:PublicationYear>
+    <game:Edition>1</game:Family>
+    <game:Age>6</game:Age>
+    
+    <game:HasPublisher rdf:resource="P000001"></game:HasPublisher>
+    
+    <game:HasArtist>
+      <rdf:Bag>
+        <rdf:li rdf:resource="#A0001" />
+        <rdf:li rdf:resource="#A0002" />
+        <rdf:li rdf:resource="#A0003" />
+      </rdf:Bag>
+    </game:HasArtist>
+    
+    <game:HasDesigner>
+      <rdf:Bag>
+        <rdf:li rdf:resource="#D0001" />
+        <rdf:li rdf:resource="#D0002" />
+      </rdf:Bag>
+    </game:HasDesigner>
+    
+    <game:Family>
+      <rdf:Bag>
+        <rdf:li rdf:resource="#F0001" />
+        <rdf:li rdf:resource="#F0002" />
+        <rdf:li rdf:resource="#F0003" />
+      </rdf:Bag>
+    </game:Family>
+    
+    <game:HasBox>
+      <game:Box>
+        <game:HasComponent>
+          <rdf:Bag>
+            <rdf:li>
+              <game:Manual>
+                <game:Pages>24</game:Pages>
+              </game:Manual>
+            </rdf:li>
+            <rdf:li>
+              <game:Book>
+                <foaf:name>Traitor's Tome</foaf:name>
+                <game:Pages>70</game:Pages>
+              </game:Book>
+            </rdf:li>
+            <rdf:li>
+              <game:Book>
+                <foaf:name>Secrets of Survival</foaf:name>
+                <game:Pages>80</game:Pages>
+              </game:Book>
+            </rdf:li>
+            <rdf:li>
+              <game:Miniature>
+                <game:hasBase>
+                  <game:Circle></game:Circle>
+                </game:hasBase>
+                <game:ComponentDescription>Halfling</game:ComponentDescription>
+                <game:MadeOf>
+                  <game:Plastic></game:Plastic>
+                </game:MadeOf>
+              </game:Miniature>
+            </rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+          </rdf:Bag>
+        </game:HasComponent>
+      </game:Box>
+    </game:HasBox>
+  </game:BoardGame>
+ 
+  <game:Family rdf:ID="#F0001">Betrayal</game:Family>
+  <game:Family rdf:ID="#F0002">Dungeons & Dragons</game:Family>
+  <game:Family rdf:ID="#F0003">Baldur's Gate</game:Family>
+ 
+  <res:Publisher res:ID="P000001">
+    <foaf:name>Avalon Hill Games, Inc.</foaf:name>
+  </res:Publisher>
+ 
+  <res:Artist res:ID="A000001">
+    <foaf:name>Aaron Hübrich</foaf:name>
+  </res:Artist>
+  
+  <res:Artist res:ID="A000002">
+    <foaf:name>Tyler Jacobson</foaf:name>
+  </res:Artist>
+  
+  <res:Artist res:ID="A000003">
+    <foaf:name>Scott Okumura</foaf:name>
+  </res:Artist>
+ 
+  <res:Designer res:ID="D000001">
+    <foaf:name>Chris Dupuis</foaf:name>
+  </res:Designer>
+ 
+  <res:Designer res:ID="D000002">
+    <foaf:name>Mike Mearls</foaf:name>
+  </res:Designer>
+  
+  <res:Dice res:ID="D6">
+    <game:Faces>6</game:Faces>
+  </res:Dice>
 
 </rdf:RDF>
