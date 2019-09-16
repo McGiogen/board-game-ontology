@@ -68,7 +68,7 @@
   
   <rdfs:Class rdf:ID="Publisher">
     <rdfs:comment>The publisher of the game.</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="dbpedia:Company"/>
+    <rdfs:subClassOf rdf:resource="dbpedia:Agent"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Designer">
@@ -186,7 +186,7 @@
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Box">
-    <rdfs:comment>Scatola del gioco. La tengo? Dovrei farla </rdfs:comment>
+    <rdfs:comment>Scatola del gioco.</rdfs:comment>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Book">
@@ -222,6 +222,10 @@
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
   </rdfs:Class>
 
+  <rdfs:Class rdf:ID="Range">
+    <rdfs:comment></rdfs:comment>
+  </rdfs:Class>
+
   <!-- Properties -->
 
   <!--
@@ -235,7 +239,8 @@
   Type
   Category
   Mechanisms
-  ✓ Family
+  ✓ Family dbo:series
+  is dbo:product of
 
   // https://boardgamegeek.com/boardgame/194286/catacombs-castles
   // Per owl: se hanno queste proprietà -> hanno una famiglia in comune
@@ -286,32 +291,40 @@
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
-  <!-- TODO dovrebbe essere un valore unico o una coppia (min-max) -->
+  <rdf:Property rdf:ID="HasMinimum">
+    <rdfs:comment>The minimum of the range</rdfs:comment>
+    <rdfs:domain rdf:resource="Range"/>
+    <rdfs:range rdf:resource="rdfs:Literal"/>
+  </rdf:Property>
+
+  <rdf:Property rdf:ID="HasMaximum">
+    <rdfs:comment>The maximum of the range</rdfs:comment>
+    <rdfs:domain rdf:resource="Range"/>
+    <rdfs:range rdf:resource="rdfs:Literal"/>
+  </rdf:Property>
+
   <rdf:Property rdf:ID="Duration">
     <rdfs:comment>The duration of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
-    <rdfs:range rdf:resource="rdfs:Literal"/>
+    <rdfs:range rdf:resource="#Range"/>
   </rdf:Property>
 
-  <!-- TODO dovrebbe essere un valore unico o una coppia (min-max) -->
   <rdf:Property rdf:ID="Age">
     <rdfs:comment>The minimum age to play the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
-    <rdfs:range rdf:resource="rdfs:Literal"/>
+    <rdfs:range rdf:resource="#Range"/>
   </rdf:Property>
 
-  <!-- TODO dovrebbe essere un valore unico o una coppia (min-max) -->
   <rdf:Property rdf:ID="NumberOfPlayers">
     <rdfs:comment>The number of players of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
-    <rdfs:range rdf:resource="rdfs:Literal"/>
+    <rdfs:range rdf:resource="#Range"/>
   </rdf:Property>
 
-  <!-- FIXME il publisher è una persona o una compagnia, publisher è una proprietà di Game -->
   <rdf:Property rdf:ID="HasPublisher">
     <rdfs:comment>The publisher of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
-    <rdfs:range rdf:resource="#GamePublisher"/>
+    <rdfs:range rdf:resource="#Publisher"/>
   </rdf:Property>
   
   <rdf:Property rdf:ID="HasArtist">
@@ -343,7 +356,7 @@
   <rdf:Property rdf:ID="Family">
     <rdfs:comment>The family of the game.</rdfs:comment>
     <rdfs:domain rdf:resource="#Game"/>
-    <rdfs:range rdf:resource="rdfs:Literal"/>
+    <rdfs:range rdf:resource="dbpedia:series"/>
   </rdf:Property>
 
   <rdf:Property rdf:ID="Award">
@@ -466,17 +479,21 @@
   <game:RolePlayingGame rdf:ID="BG000001"></game:RolePlayingGame>
 
   <game:BoardGame rdf:ID="BG000001">
-    <game:Title>Betrayal at Baldur's Gate</game:Name>
+    <game:Title>Betrayal at Baldur's Gate</game:Title>
     <game:GameDescription>
       Based on the award-winning Betrayal at House on the Hill board game, in Betrayal at Baldur's Gate
       you'll return to Baldur's Gate again and again thanks to the fifty included scenarios only to discover it's never the same game twice.
       Can you and your party survive the madness, or will you succumb to the mayhem and split (or slaughter!) the party?
     </game:GameDescription>
     <game:PublicationYear>2017</game:PublicationYear>
-    <game:Edition>1</game:Family>
-    <game:Age>6</game:Age>
+    <game:Edition>1</game:Edition>
+    <game:Age>
+      <game:Range>
+        <game:HasMinimum>6</game:HasMinimum>
+      </game:Range>
+    </game:Age>
     
-    <game:HasPublisher rdf:resource="P000001"></game:HasPublisher>
+    <game:HasPublisher rdf:resource="#P000001"></game:HasPublisher>
     
     <game:HasArtist>
       <rdf:Bag>
@@ -533,50 +550,58 @@
                 </game:MadeOf>
               </game:Miniature>
             </rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
-            <rdf:li><game:Dice rdf:resource="D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
+            <rdf:li><game:Dice rdf:resource="#D6"></game:Dice></rdf:li>
           </rdf:Bag>
         </game:HasComponent>
       </game:Box>
     </game:HasBox>
   </game:BoardGame>
  
-  <game:Family rdf:ID="#F0001">Betrayal</game:Family>
-  <game:Family rdf:ID="#F0002">Dungeons & Dragons</game:Family>
-  <game:Family rdf:ID="#F0003">Baldur's Gate</game:Family>
+  <game:Family rdf:ID="F0001">
+    <rdfs:label>Betrayal</rdfs:label>
+  </game:Family>
+
+  <game:Family rdf:ID="F0002">
+    <rdfs:label>Dungeons &amp; Dragons</rdfs:label>
+  </game:Family>
+
+  <game:Family rdf:ID="F0003">
+    <rdfs:label>Baldur's Gate</rdfs:label>
+  </game:Family>
  
-  <res:Publisher res:ID="P000001">
+  <game:Publisher rdf:ID="P000001">
     <foaf:name>Avalon Hill Games, Inc.</foaf:name>
-  </res:Publisher>
+  </game:Publisher>
  
-  <res:Artist res:ID="A000001">
+  <game:Artist rdf:ID="A000001">
     <foaf:name>Aaron Hübrich</foaf:name>
-  </res:Artist>
+  </game:Artist>
   
-  <res:Artist res:ID="A000002">
+  <game:Artist rdf:ID="A000002">
     <foaf:name>Tyler Jacobson</foaf:name>
-  </res:Artist>
+  </game:Artist>
   
-  <res:Artist res:ID="A000003">
+  <game:Artist rdf:ID="A000003">
     <foaf:name>Scott Okumura</foaf:name>
-  </res:Artist>
+  </game:Artist>
  
-  <res:Designer res:ID="D000001">
+  <game:Designer rdf:ID="D000001">
     <foaf:name>Chris Dupuis</foaf:name>
-  </res:Designer>
+  </game:Designer>
  
-  <res:Designer res:ID="D000002">
+  <game:Designer rdf:ID="D000002">
     <foaf:name>Mike Mearls</foaf:name>
-  </res:Designer>
+  </game:Designer>
   
-  <res:Dice res:ID="D6">
+  <game:Dice rdf:ID="D6">
     <game:Faces>6</game:Faces>
-  </res:Dice>
+  </game:Dice>
 
 </rdf:RDF>
