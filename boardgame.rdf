@@ -404,13 +404,13 @@
   <rdf:Property rdf:ID="HasColour">
     <rdfs:comment>The main colour of the component.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
-    <rdfs:range rdf:resource="#dbpedia:Colour"/>
+    <rdfs:range rdf:resource="dbpedia:Colour"/>
   </rdf:Property>
   
   <rdf:Property rdf:ID="HasPhoto">
     <rdfs:comment>A photo of the component.</rdfs:comment>
     <rdfs:domain rdf:resource="#GameComponent"/>
-    <rdfs:range rdf:resource="#dbpedia:Image"/>
+    <rdfs:range rdf:resource="dbpedia:Image"/>
   </rdf:Property>
 
   <rdf:Property rdf:ID="Faces">
@@ -465,6 +465,12 @@
     <rdfs:comment>The number of the pages of the book.</rdfs:comment>
     <rdfs:domain rdf:resource="#Book"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
+  </rdf:Property>
+  
+  <rdf:Property rdf:ID="HasCard">
+    <rdfs:comment>A card of the deck.</rdfs:comment>
+    <rdfs:domain rdf:resource="#Deck"/>
+    <rdfs:range rdf:resource="#Card"/>
   </rdf:Property>
   
 
