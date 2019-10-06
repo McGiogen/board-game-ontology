@@ -293,13 +293,13 @@
 
   <rdf:Property rdf:ID="HasMinimum">
     <rdfs:comment>The minimum of the range</rdfs:comment>
-    <rdfs:domain rdf:resource="Range"/>
+    <rdfs:domain rdf:resource="#Range"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
   <rdf:Property rdf:ID="HasMaximum">
     <rdfs:comment>The maximum of the range</rdfs:comment>
-    <rdfs:domain rdf:resource="Range"/>
+    <rdfs:domain rdf:resource="#Range"/>
     <rdfs:range rdf:resource="rdfs:Literal"/>
   </rdf:Property>
 
