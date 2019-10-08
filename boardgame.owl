@@ -552,51 +552,51 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Range"/>
-        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Box"/>
-        <AnonymousIndividual nodeID="_:genid2147483678"/>
+        <AnonymousIndividual nodeID="_:genid2147483666"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Manual"/>
-        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <AnonymousIndividual nodeID="_:genid2147483669"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483683"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483685"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Miniature"/>
-        <AnonymousIndividual nodeID="_:genid2147483687"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Circle"/>
-        <AnonymousIndividual nodeID="_:genid2147483689"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Plastic"/>
-        <AnonymousIndividual nodeID="_:genid2147483691"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483692"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483693"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483694"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483695"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
     </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Age"/>
@@ -887,7 +887,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Age"/>
         <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Edition"/>
@@ -897,7 +897,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Family"/>
         <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483692"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:GameDescription"/>
@@ -911,17 +911,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasArtist"/>
         <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483694"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasBox"/>
         <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483678"/>
+        <AnonymousIndividual nodeID="_:genid2147483666"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasDesigner"/>
         <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483693"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasPublisher"/>
@@ -1330,53 +1330,53 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasMinimum"/>
-        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
         <Literal>6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasComponent"/>
-        <AnonymousIndividual nodeID="_:genid2147483678"/>
-        <AnonymousIndividual nodeID="_:genid2147483695"/>
+        <AnonymousIndividual nodeID="_:genid2147483666"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483681"/>
+        <AnonymousIndividual nodeID="_:genid2147483669"/>
         <Literal>24</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483683"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
         <Literal>70</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483683"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
         <Literal>Traitor&apos;s Tome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483685"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
         <Literal>80</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483685"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
         <Literal>Secrets of Survival</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:ComponentDescription"/>
-        <AnonymousIndividual nodeID="_:genid2147483687"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
         <Literal>Halfling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:MadeOf"/>
-        <AnonymousIndividual nodeID="_:genid2147483687"/>
-        <AnonymousIndividual nodeID="_:genid2147483691"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:hasBase"/>
-        <AnonymousIndividual nodeID="_:genid2147483687"/>
-        <AnonymousIndividual nodeID="_:genid2147483689"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
     </AnnotationAssertion>
 </Ontology>
 
