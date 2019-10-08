@@ -14,118 +14,118 @@
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="dbpedia" IRI="http://dbpedia.org/ontology/"/>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Artist"/>
+        <Class IRI="#Artist"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Board"/>
+        <Class IRI="#Board"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Book"/>
+        <Class IRI="#Book"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Box"/>
+        <Class IRI="#Box"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Card"/>
+        <Class IRI="#Card"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Cardboard"/>
+        <Class IRI="#Cardboard"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Circle"/>
+        <Class IRI="#Circle"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Cube"/>
+        <Class IRI="#Cube"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Deck"/>
+        <Class IRI="#Deck"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Designer"/>
+        <Class IRI="#Designer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Dice"/>
+        <Class IRI="#Dice"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#DiceGame"/>
+        <Class IRI="#DiceGame"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#GameComponent"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Manual"/>
+        <Class IRI="#Manual"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Material"/>
+        <Class IRI="#Material"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Miniature"/>
+        <Class IRI="#Miniature"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Paper"/>
+        <Class IRI="#Paper"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperAndPencilGame"/>
+        <Class IRI="#PaperAndPencilGame"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Plastic"/>
+        <Class IRI="#Plastic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Publisher"/>
+        <Class IRI="#Publisher"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pyramid"/>
+        <Class IRI="#Pyramid"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Range"/>
+        <Class IRI="#Range"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Rectangle"/>
+        <Class IRI="#Rectangle"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RectangularCuboid"/>
+        <Class IRI="#RectangularCuboid"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RolePlayingGame"/>
+        <Class IRI="#RolePlayingGame"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape"/>
+        <Class IRI="#Shape"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <Class IRI="#Shape2D"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape3D"/>
+        <Class IRI="#Shape3D"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Sphere"/>
+        <Class IRI="#Sphere"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Square"/>
+        <Class IRI="#Square"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Token"/>
+        <Class IRI="#Token"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Triangle"/>
+        <Class IRI="#Triangle"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Wood"/>
+        <Class IRI="#Wood"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPublisher"/>
+        <ObjectProperty IRI="#HasPublisher"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasColour"/>
+        <ObjectProperty IRI="#HasColour"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:BoardGame"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasLanguage"/>
+        <ObjectProperty IRI="#HasLanguage"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperSize"/>
+        <ObjectProperty IRI="#PaperSize"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Publisher"/>
@@ -134,28 +134,28 @@
         <AnnotationProperty abbreviatedIRI="game:hasBase"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPhoto"/>
+        <ObjectProperty IRI="#HasPhoto"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:MadeOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameDescription"/>
+        <ObjectProperty IRI="#GameDescription"/>
     </Declaration>
     <Declaration>
-        <Class IRI="dbpedia:series"/>
+        <Class abbreviatedIRI="dbpedia:series"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Weight"/>
+        <ObjectProperty IRI="#Weight"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0002"/>
+        <NamedIndividual IRI="#F0002"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0003"/>
+        <NamedIndividual IRI="#F0003"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0001"/>
+        <NamedIndividual IRI="#F0001"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Designer"/>
@@ -167,49 +167,49 @@
         <AnnotationProperty abbreviatedIRI="game:GameDescription"/>
     </Declaration>
     <Declaration>
-        <Class IRI="foaf:Document"/>
+        <Class abbreviatedIRI="foaf:Document"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBox"/>
+        <ObjectProperty IRI="#HasBox"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Faces"/>
+        <ObjectProperty IRI="#Faces"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Family"/>
+        <ObjectProperty IRI="#Family"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BoardThickness"/>
+        <ObjectProperty IRI="#BoardThickness"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D6"/>
+        <NamedIndividual IRI="#D6"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000003"/>
+        <NamedIndividual IRI="#A000003"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000001"/>
+        <NamedIndividual IRI="#A000001"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasArtist"/>
+        <ObjectProperty IRI="#HasArtist"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000002"/>
+        <NamedIndividual IRI="#A000002"/>
     </Declaration>
     <Declaration>
-        <Class IRI="dbpedia:Award"/>
+        <Class abbreviatedIRI="dbpedia:Award"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:Title"/>
     </Declaration>
     <Declaration>
-        <Class IRI="rdfs:Literal"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:Edition"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PublicationYear"/>
+        <ObjectProperty IRI="#PublicationYear"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:HasComponent"/>
@@ -224,61 +224,61 @@
         <Class abbreviatedIRI="rdf:Bag"/>
     </Declaration>
     <Declaration>
-        <Class IRI="dbpedia:Game"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
     </Declaration>
     <Declaration>
-        <Class IRI="foaf:Person"/>
+        <Class abbreviatedIRI="foaf:Person"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Book"/>
     </Declaration>
     <Declaration>
-        <Class IRI="dbpedia:Language"/>
+        <Class abbreviatedIRI="dbpedia:Language"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMaximum"/>
+        <ObjectProperty IRI="#HasMaximum"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#TokenThickness"/>
+        <ObjectProperty IRI="#TokenThickness"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#P000001"/>
+        <NamedIndividual IRI="#P000001"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMinimum"/>
+        <ObjectProperty IRI="#HasMinimum"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Language"/>
+        <ObjectProperty IRI="#Language"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Dice"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasDesigner"/>
+        <ObjectProperty IRI="#HasDesigner"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Circle"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#NumberOfPlayers"/>
+        <ObjectProperty IRI="#NumberOfPlayers"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Plastic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <Class IRI="#Game"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Miniature"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#ComponentDescription"/>
+        <ObjectProperty IRI="#ComponentDescription"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasCard"/>
+        <ObjectProperty IRI="#HasCard"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Edition"/>
+        <ObjectProperty IRI="#Edition"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:Family"/>
@@ -293,40 +293,40 @@
         <Class abbreviatedIRI="game:Family"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Age"/>
+        <ObjectProperty IRI="#Age"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Duration"/>
+        <ObjectProperty IRI="#Duration"/>
     </Declaration>
     <Declaration>
-        <Class IRI="dbpedia:Image"/>
+        <Class abbreviatedIRI="dbpedia:Image"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasHeight"/>
+        <ObjectProperty IRI="#HasHeight"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#MadeOf"/>
+        <ObjectProperty IRI="#MadeOf"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D000002"/>
+        <NamedIndividual IRI="#D000002"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001"/>
+        <NamedIndividual IRI="#BG000001"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:Age"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D000001"/>
+        <NamedIndividual IRI="#D000001"/>
     </Declaration>
     <Declaration>
-        <Class IRI="dbpedia:Colour"/>
+        <Class abbreviatedIRI="dbpedia:Colour"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasComponent"/>
+        <ObjectProperty IRI="#HasComponent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasWidth"/>
+        <ObjectProperty IRI="#HasWidth"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Manual"/>
@@ -335,13 +335,13 @@
         <Class abbreviatedIRI="game:Range"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pages"/>
+        <ObjectProperty IRI="#Pages"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="game:Artist"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBase"/>
+        <ObjectProperty IRI="#HasBase"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:HasArtist"/>
@@ -353,10 +353,10 @@
         <AnnotationProperty abbreviatedIRI="game:HasMinimum"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Award"/>
+        <ObjectProperty IRI="#Award"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Title"/>
+        <ObjectProperty IRI="#Title"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="game:Faces"/>
@@ -368,187 +368,187 @@
         <AnnotationProperty abbreviatedIRI="game:PublicationYear"/>
     </Declaration>
     <Declaration>
-        <Class IRI="dbpedia:Agent"/>
+        <Class abbreviatedIRI="dbpedia:Agent"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Artist"/>
-        <Class IRI="foaf:Person"/>
+        <Class IRI="#Artist"/>
+        <Class abbreviatedIRI="foaf:Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Board"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Board"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Board"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <Class IRI="#Board"/>
+        <Class IRI="#Shape2D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Book"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Book"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Book"/>
-        <Class IRI="foaf:Document"/>
+        <Class IRI="#Book"/>
+        <Class abbreviatedIRI="foaf:Document"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Card"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Card"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Cardboard"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Material"/>
+        <Class IRI="#Cardboard"/>
+        <Class IRI="#Material"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Circle"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <Class IRI="#Circle"/>
+        <Class IRI="#Shape2D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Cube"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape3D"/>
+        <Class IRI="#Cube"/>
+        <Class IRI="#Shape3D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Deck"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Deck"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Designer"/>
-        <Class IRI="foaf:Person"/>
+        <Class IRI="#Designer"/>
+        <Class abbreviatedIRI="foaf:Person"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Dice"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Cube"/>
+        <Class IRI="#Dice"/>
+        <Class IRI="#Cube"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Dice"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Dice"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#DiceGame"/>
-        <Class IRI="dbpedia:Game"/>
+        <Class IRI="#DiceGame"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape"/>
+        <Class IRI="#GameComponent"/>
+        <Class IRI="#Shape"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Manual"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Book"/>
+        <Class IRI="#Manual"/>
+        <Class IRI="#Book"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Manual"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Manual"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Miniature"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Miniature"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Paper"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Material"/>
+        <Class IRI="#Paper"/>
+        <Class IRI="#Material"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperAndPencilGame"/>
-        <Class IRI="dbpedia:Game"/>
+        <Class IRI="#PaperAndPencilGame"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Plastic"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Material"/>
+        <Class IRI="#Plastic"/>
+        <Class IRI="#Material"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Publisher"/>
-        <Class IRI="dbpedia:Agent"/>
+        <Class IRI="#Publisher"/>
+        <Class abbreviatedIRI="dbpedia:Agent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pyramid"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape3D"/>
+        <Class IRI="#Pyramid"/>
+        <Class IRI="#Shape3D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Rectangle"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <Class IRI="#Rectangle"/>
+        <Class IRI="#Shape2D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RectangularCuboid"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape3D"/>
+        <Class IRI="#RectangularCuboid"/>
+        <Class IRI="#Shape3D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RolePlayingGame"/>
-        <Class IRI="dbpedia:Game"/>
+        <Class IRI="#RolePlayingGame"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape"/>
+        <Class IRI="#Shape2D"/>
+        <Class IRI="#Shape"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape3D"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape"/>
+        <Class IRI="#Shape3D"/>
+        <Class IRI="#Shape"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Sphere"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape3D"/>
+        <Class IRI="#Sphere"/>
+        <Class IRI="#Shape3D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Square"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <Class IRI="#Square"/>
+        <Class IRI="#Shape2D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Token"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <Class IRI="#Token"/>
+        <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Token"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <Class IRI="#Token"/>
+        <Class IRI="#Shape2D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Triangle"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <Class IRI="#Triangle"/>
+        <Class IRI="#Shape2D"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Wood"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Material"/>
+        <Class IRI="#Wood"/>
+        <Class IRI="#Material"/>
     </SubClassOf>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Artist"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000001"/>
+        <NamedIndividual IRI="#A000001"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Artist"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000002"/>
+        <NamedIndividual IRI="#A000002"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Artist"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000003"/>
+        <NamedIndividual IRI="#A000003"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:BoardGame"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001"/>
+        <NamedIndividual IRI="#BG000001"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Designer"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D000001"/>
+        <NamedIndividual IRI="#D000001"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Designer"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D000002"/>
+        <NamedIndividual IRI="#D000002"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Dice"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D6"/>
+        <NamedIndividual IRI="#D6"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Family"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0001"/>
+        <NamedIndividual IRI="#F0001"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Family"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0002"/>
+        <NamedIndividual IRI="#F0002"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Family"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0003"/>
+        <NamedIndividual IRI="#F0003"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Publisher"/>
-        <NamedIndividual IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#P000001"/>
+        <NamedIndividual IRI="#P000001"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="game:Range"/>
@@ -599,309 +599,309 @@
         <AnonymousIndividual nodeID="_:genid2147483683"/>
     </ClassAssertion>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Age"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#Age"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Award"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#Award"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BoardThickness"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Board"/>
+        <ObjectProperty IRI="#BoardThickness"/>
+        <Class IRI="#Board"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#ComponentDescription"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <ObjectProperty IRI="#ComponentDescription"/>
+        <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Duration"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#Duration"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Edition"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#Edition"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Faces"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Dice"/>
+        <ObjectProperty IRI="#Faces"/>
+        <Class IRI="#Dice"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Family"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#Family"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameDescription"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#GameDescription"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasArtist"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#HasArtist"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBase"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Miniature"/>
+        <ObjectProperty IRI="#HasBase"/>
+        <Class IRI="#Miniature"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBox"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#HasBox"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasCard"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Deck"/>
+        <ObjectProperty IRI="#HasCard"/>
+        <Class IRI="#Deck"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasColour"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <ObjectProperty IRI="#HasColour"/>
+        <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasComponent"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Box"/>
+        <ObjectProperty IRI="#HasComponent"/>
+        <Class IRI="#Box"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasDesigner"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#HasDesigner"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasHeight"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <ObjectProperty IRI="#HasHeight"/>
+        <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasLanguage"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Board"/>
+        <ObjectProperty IRI="#HasLanguage"/>
+        <Class IRI="#Board"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMaximum"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Range"/>
+        <ObjectProperty IRI="#HasMaximum"/>
+        <Class IRI="#Range"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMinimum"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Range"/>
+        <ObjectProperty IRI="#HasMinimum"/>
+        <Class IRI="#Range"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPhoto"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <ObjectProperty IRI="#HasPhoto"/>
+        <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPublisher"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#HasPublisher"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasWidth"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <ObjectProperty IRI="#HasWidth"/>
+        <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Language"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Book"/>
+        <ObjectProperty IRI="#Language"/>
+        <Class IRI="#Book"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#MadeOf"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <ObjectProperty IRI="#MadeOf"/>
+        <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#NumberOfPlayers"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#NumberOfPlayers"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pages"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Book"/>
+        <ObjectProperty IRI="#Pages"/>
+        <Class IRI="#Book"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperSize"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Paper"/>
+        <ObjectProperty IRI="#PaperSize"/>
+        <Class IRI="#Paper"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PublicationYear"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#PublicationYear"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Title"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Game"/>
+        <ObjectProperty IRI="#Title"/>
+        <Class IRI="#Game"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#TokenThickness"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Token"/>
+        <ObjectProperty IRI="#TokenThickness"/>
+        <Class IRI="#Token"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Weight"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Paper"/>
+        <ObjectProperty IRI="#Weight"/>
+        <Class IRI="#Paper"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Age"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Range"/>
+        <ObjectProperty IRI="#Age"/>
+        <Class IRI="#Range"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Award"/>
-        <Class IRI="dbpedia:Award"/>
+        <ObjectProperty IRI="#Award"/>
+        <Class abbreviatedIRI="dbpedia:Award"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BoardThickness"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#BoardThickness"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#ComponentDescription"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#ComponentDescription"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Duration"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Range"/>
+        <ObjectProperty IRI="#Duration"/>
+        <Class IRI="#Range"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Edition"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#Edition"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Faces"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#Faces"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Family"/>
-        <Class IRI="dbpedia:series"/>
+        <ObjectProperty IRI="#Family"/>
+        <Class abbreviatedIRI="dbpedia:series"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameDescription"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#GameDescription"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasArtist"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Artist"/>
+        <ObjectProperty IRI="#HasArtist"/>
+        <Class IRI="#Artist"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBase"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D"/>
+        <ObjectProperty IRI="#HasBase"/>
+        <Class IRI="#Shape2D"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBox"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Box"/>
+        <ObjectProperty IRI="#HasBox"/>
+        <Class IRI="#Box"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasCard"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Card"/>
+        <ObjectProperty IRI="#HasCard"/>
+        <Class IRI="#Card"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasColour"/>
-        <Class IRI="dbpedia:Colour"/>
+        <ObjectProperty IRI="#HasColour"/>
+        <Class abbreviatedIRI="dbpedia:Colour"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasComponent"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent"/>
+        <ObjectProperty IRI="#HasComponent"/>
+        <Class IRI="#GameComponent"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasDesigner"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Designer"/>
+        <ObjectProperty IRI="#HasDesigner"/>
+        <Class IRI="#Designer"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasHeight"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#HasHeight"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasLanguage"/>
-        <Class IRI="dbpedia:Language"/>
+        <ObjectProperty IRI="#HasLanguage"/>
+        <Class abbreviatedIRI="dbpedia:Language"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMaximum"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#HasMaximum"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMinimum"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#HasMinimum"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPhoto"/>
-        <Class IRI="dbpedia:Image"/>
+        <ObjectProperty IRI="#HasPhoto"/>
+        <Class abbreviatedIRI="dbpedia:Image"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPublisher"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Publisher"/>
+        <ObjectProperty IRI="#HasPublisher"/>
+        <Class IRI="#Publisher"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasWidth"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#HasWidth"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Language"/>
-        <Class IRI="dbpedia:Language"/>
+        <ObjectProperty IRI="#Language"/>
+        <Class abbreviatedIRI="dbpedia:Language"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#MadeOf"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Material"/>
+        <ObjectProperty IRI="#MadeOf"/>
+        <Class IRI="#Material"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#NumberOfPlayers"/>
-        <Class IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Range"/>
+        <ObjectProperty IRI="#NumberOfPlayers"/>
+        <Class IRI="#Range"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pages"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#Pages"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperSize"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#PaperSize"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PublicationYear"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#PublicationYear"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Title"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#Title"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#TokenThickness"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#TokenThickness"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Weight"/>
-        <Class IRI="rdfs:Literal"/>
+        <ObjectProperty IRI="#Weight"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000001</IRI>
+        <IRI>#A000001</IRI>
         <Literal>Aaron Hübrich</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000002</IRI>
+        <IRI>#A000002</IRI>
         <Literal>Tyler Jacobson</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#A000003</IRI>
+        <IRI>#A000003</IRI>
         <Literal>Scott Okumura</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Age</IRI>
+        <IRI>#Age</IRI>
         <Literal>The minimum age to play the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Artist</IRI>
+        <IRI>#Artist</IRI>
         <Literal>Any type of artist.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Award</IRI>
+        <IRI>#Award</IRI>
         <Literal>The award of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Age"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <AnonymousIndividual nodeID="_:genid2147483661"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Edition"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <Literal>1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Family"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <AnonymousIndividual nodeID="_:genid2147483680"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:GameDescription"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <Literal>
       Based on the award-winning Betrayal at House on the Hill board game, in Betrayal at Baldur&apos;s Gate
       you&apos;ll return to Baldur&apos;s Gate again and again thanks to the fifty included scenarios only to discover it&apos;s never the same game twice.
@@ -910,422 +910,422 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasArtist"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <AnonymousIndividual nodeID="_:genid2147483682"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasBox"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <AnonymousIndividual nodeID="_:genid2147483666"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasDesigner"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <AnonymousIndividual nodeID="_:genid2147483681"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasPublisher"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#P000001</IRI>
+        <IRI>#BG000001</IRI>
+        <IRI>#P000001</IRI>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:PublicationYear"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <Literal>2017</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Title"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BG000001</IRI>
+        <IRI>#BG000001</IRI>
         <Literal>Betrayal at Baldur&apos;s Gate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Board</IRI>
+        <IRI>#Board</IRI>
         <Literal>Forma 2D con uno spessore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#BoardThickness</IRI>
+        <IRI>#BoardThickness</IRI>
         <Literal>The thickness of the board.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Book</IRI>
+        <IRI>#Book</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Box</IRI>
+        <IRI>#Box</IRI>
         <Literal>Scatola del gioco.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Card</IRI>
+        <IRI>#Card</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Cardboard</IRI>
+        <IRI>#Cardboard</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Circle</IRI>
+        <IRI>#Circle</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#ComponentDescription</IRI>
+        <IRI>#ComponentDescription</IRI>
         <Literal>The description of the component.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Cube</IRI>
+        <IRI>#Cube</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D000001</IRI>
+        <IRI>#D000001</IRI>
         <Literal>Chris Dupuis</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D000002</IRI>
+        <IRI>#D000002</IRI>
         <Literal>Mike Mearls</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:Faces"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#D6</IRI>
+        <IRI>#D6</IRI>
         <Literal>6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Deck</IRI>
+        <IRI>#Deck</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Designer</IRI>
+        <IRI>#Designer</IRI>
         <Literal>Any type of designer.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Dice</IRI>
+        <IRI>#Dice</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#DiceGame</IRI>
+        <IRI>#DiceGame</IRI>
         <Literal xml:lang="en">game in which dice are the central component</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#DiceGame</IRI>
+        <IRI>#DiceGame</IRI>
         <Literal xml:lang="it">gioco basato sul lancio di dadi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#DiceGame</IRI>
+        <IRI>#DiceGame</IRI>
         <Literal xml:lang="en">dice game</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#DiceGame</IRI>
+        <IRI>#DiceGame</IRI>
         <Literal xml:lang="it">gioco di dadi</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Duration</IRI>
+        <IRI>#Duration</IRI>
         <Literal>The duration of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Edition</IRI>
+        <IRI>#Edition</IRI>
         <Literal>The edition of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0001</IRI>
+        <IRI>#F0001</IRI>
         <Literal>Betrayal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0002</IRI>
+        <IRI>#F0002</IRI>
         <Literal>Dungeons &amp; Dragons</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#F0003</IRI>
+        <IRI>#F0003</IRI>
         <Literal>Baldur&apos;s Gate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Faces</IRI>
+        <IRI>#Faces</IRI>
         <Literal>The number of faces of the dice.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Family</IRI>
+        <IRI>#Family</IRI>
         <Literal>The family of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameComponent</IRI>
+        <IRI>#GameComponent</IRI>
         <Literal>Generic piece of a game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#GameDescription</IRI>
+        <IRI>#GameDescription</IRI>
         <Literal>The description of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasArtist</IRI>
+        <IRI>#HasArtist</IRI>
         <Literal>The artist of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBase</IRI>
+        <IRI>#HasBase</IRI>
         <Literal>The base of the miniature.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasBox</IRI>
+        <IRI>#HasBox</IRI>
         <Literal>A box of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasCard</IRI>
+        <IRI>#HasCard</IRI>
         <Literal>A card of the deck.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasColour</IRI>
+        <IRI>#HasColour</IRI>
         <Literal>The main colour of the component.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasComponent</IRI>
+        <IRI>#HasComponent</IRI>
         <Literal>A component of the box.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasDesigner</IRI>
+        <IRI>#HasDesigner</IRI>
         <Literal>The designer of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasHeight</IRI>
+        <IRI>#HasHeight</IRI>
         <Literal>Height, in millimeters.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasLanguage</IRI>
+        <IRI>#HasLanguage</IRI>
         <Literal>The language of the text of the board.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMaximum</IRI>
+        <IRI>#HasMaximum</IRI>
         <Literal>The maximum of the range</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasMinimum</IRI>
+        <IRI>#HasMinimum</IRI>
         <Literal>The minimum of the range</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPhoto</IRI>
+        <IRI>#HasPhoto</IRI>
         <Literal>A photo of the component.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasPublisher</IRI>
+        <IRI>#HasPublisher</IRI>
         <Literal>The publisher of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#HasWidth</IRI>
+        <IRI>#HasWidth</IRI>
         <Literal>Width, in millimeters.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Language</IRI>
+        <IRI>#Language</IRI>
         <Literal>The language of the text of the book.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#MadeOf</IRI>
+        <IRI>#MadeOf</IRI>
         <Literal>Material used to make the component.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Manual</IRI>
+        <IRI>#Manual</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Material</IRI>
+        <IRI>#Material</IRI>
         <Literal>Physical material.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Miniature</IRI>
+        <IRI>#Miniature</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#NumberOfPlayers</IRI>
+        <IRI>#NumberOfPlayers</IRI>
         <Literal>The number of players of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#P000001</IRI>
+        <IRI>#P000001</IRI>
         <Literal>Avalon Hill Games, Inc.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pages</IRI>
+        <IRI>#Pages</IRI>
         <Literal>The number of the pages of the book.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Paper</IRI>
+        <IRI>#Paper</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperAndPencilGame</IRI>
+        <IRI>#PaperAndPencilGame</IRI>
         <Literal xml:lang="it">Gioco in cui i giocatori assumono il ruolo di personaggi in un ambiente immaginario</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperAndPencilGame</IRI>
+        <IRI>#PaperAndPencilGame</IRI>
         <Literal xml:lang="it">gioco di carta e matita</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperAndPencilGame</IRI>
+        <IRI>#PaperAndPencilGame</IRI>
         <Literal xml:lang="en">paper and pencil game</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PaperSize</IRI>
+        <IRI>#PaperSize</IRI>
         <Literal>The paper size.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Plastic</IRI>
+        <IRI>#Plastic</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#PublicationYear</IRI>
+        <IRI>#PublicationYear</IRI>
         <Literal>The year of publication of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Publisher</IRI>
+        <IRI>#Publisher</IRI>
         <Literal>The publisher of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pyramid</IRI>
+        <IRI>#Pyramid</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Pyramid</IRI>
+        <IRI>#Pyramid</IRI>
         <Literal>Parallelepipedo rettangolo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Range</IRI>
+        <IRI>#Range</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Rectangle</IRI>
+        <IRI>#Rectangle</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RectangularCuboid</IRI>
+        <IRI>#RectangularCuboid</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RectangularCuboid</IRI>
+        <IRI>#RectangularCuboid</IRI>
         <Literal>Parallelepipedo rettangolo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RolePlayingGame</IRI>
+        <IRI>#RolePlayingGame</IRI>
         <Literal xml:lang="it">Gioco in cui i giocatori assumono il ruolo di personaggi in un ambiente immaginario</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RolePlayingGame</IRI>
+        <IRI>#RolePlayingGame</IRI>
         <Literal xml:lang="it">gioco di ruolo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#RolePlayingGame</IRI>
+        <IRI>#RolePlayingGame</IRI>
         <Literal xml:lang="en">role playing game</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape</IRI>
+        <IRI>#Shape</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape2D</IRI>
+        <IRI>#Shape2D</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Shape3D</IRI>
+        <IRI>#Shape3D</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Sphere</IRI>
+        <IRI>#Sphere</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Square</IRI>
+        <IRI>#Square</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Title</IRI>
+        <IRI>#Title</IRI>
         <Literal>The title of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Token</IRI>
+        <IRI>#Token</IRI>
         <Literal>Forma 2D con uno spessore</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#TokenThickness</IRI>
+        <IRI>#TokenThickness</IRI>
         <Literal>The thickness of the token.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Triangle</IRI>
+        <IRI>#Triangle</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Weight</IRI>
+        <IRI>#Weight</IRI>
         <Literal>The weight/grammatura of the paper.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>file:/home/gioele/workspace/uni/web-semantico/progetto/board-game-ontology/boardgame.rdf#Wood</IRI>
+        <IRI>#Wood</IRI>
         <Literal></Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
