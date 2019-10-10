@@ -83,58 +83,58 @@
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Shape">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>A generic shape.</rdfs:comment>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Shape2D">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>A generic 2D shape.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Shape3D">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>A generic 3D shape.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Circle">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Circle.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Triangle">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Triangle.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Rectangle">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Rectangle.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Square">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Square.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape2D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Sphere">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Sphere</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Pyramid">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Pyramid.</rdfs:comment>
     <rdfs:comment>Parallelepipedo rettangolo</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="RectangularCuboid">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Rectangular cuboid.</rdfs:comment>
     <rdfs:comment>Parallelepipedo rettangolo</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Cube">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Cube.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Shape3D"/>
   </rdfs:Class>
 
@@ -143,22 +143,22 @@
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Plastic">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Plastic.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Material"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Wood">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Wood.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Material"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Paper">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Paper.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Material"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Cardboard">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Cardboard.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Material"/>
   </rdfs:Class>
 
@@ -179,7 +179,7 @@
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Dice">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Dice.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
   </rdfs:Class>
 
@@ -188,7 +188,7 @@
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Book">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>Book.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
     <rdfs:subClassOf rdf:resource="foaf:Document"/>
 
@@ -196,32 +196,32 @@
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Manual">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>A manual or rulebook.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#Book"/>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Card">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>The gaming card.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
 
     <!-- Paper or plastic -->
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Deck">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>The gaming deck.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
 
     <!-- Contengono le carte -->
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Miniature">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>A miniature.</rdfs:comment>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Range">
-    <rdfs:comment></rdfs:comment>
+    <rdfs:comment>A range between min and max.</rdfs:comment>
   </rdfs:Class>
 
   <!-- Properties -->
