@@ -291,10 +291,6 @@
         <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Board"/>
-        <Class IRI="#Shape2D"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Book"/>
         <Class IRI="#GameComponent"/>
     </SubClassOf>
@@ -397,10 +393,6 @@
     <SubClassOf>
         <Class IRI="#Token"/>
         <Class IRI="#GameComponent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Token"/>
-        <Class IRI="#Shape2D"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Triangle"/>
