@@ -496,11 +496,11 @@
     </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Age"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Award"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#BoardThickness"/>
@@ -512,11 +512,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Duration"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Edition"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Faces"/>
@@ -524,15 +524,15 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Family"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GameDescription"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasArtist"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasBase"/>
@@ -540,7 +540,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasBox"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasCard"/>
@@ -556,7 +556,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasDesigner"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasHeight"/>
@@ -580,7 +580,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasPublisher"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasWidth"/>
@@ -596,7 +596,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#NumberOfPlayers"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Pages"/>
@@ -608,11 +608,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#PublicationYear"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Title"/>
-        <Class IRI="#Game"/>
+        <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#TokenThickness"/>
