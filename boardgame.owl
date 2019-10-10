@@ -431,7 +431,7 @@
         <NamedIndividual IRI="#A000003"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
         <NamedIndividual IRI="#BG000001"/>
     </ClassAssertion>
     <ClassAssertion>
