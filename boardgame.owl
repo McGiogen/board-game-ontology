@@ -328,19 +328,11 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Dice"/>
-        <Class IRI="#Cube"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Dice"/>
         <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DiceGame"/>
         <Class abbreviatedIRI="dbpedia:Game"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#GameComponent"/>
-        <Class IRI="#Shape"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manual"/>

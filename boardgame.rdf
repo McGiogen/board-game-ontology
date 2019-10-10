@@ -164,7 +164,6 @@
 
   <rdfs:Class rdf:ID="GameComponent">
     <rdfs:comment>Generic piece of a game.</rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#Shape"/>
   </rdfs:Class>
 
   <rdfs:Class rdf:ID="Token">
@@ -181,7 +180,6 @@
 
   <rdfs:Class rdf:ID="Dice">
     <rdfs:comment></rdfs:comment>
-    <rdfs:subClassOf rdf:resource="#Cube"/>
     <rdfs:subClassOf rdf:resource="#GameComponent"/>
   </rdfs:Class>
 
