@@ -133,6 +133,9 @@
         <ObjectProperty IRI="#HasPhoto"/>
     </Declaration>
     <Declaration>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#GameDescription"/>
     </Declaration>
     <Declaration>
@@ -499,11 +502,11 @@
     </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Age"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Award"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#BoardThickness"/>
@@ -515,11 +518,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Duration"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Edition"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Faces"/>
@@ -527,15 +530,15 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Family"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#GameDescription"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasArtist"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasBase"/>
@@ -543,7 +546,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasBox"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasCard"/>
@@ -559,7 +562,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasDesigner"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasHeight"/>
@@ -583,7 +586,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasPublisher"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasShape"/>
@@ -603,7 +606,7 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#NumberOfPlayers"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Pages"/>
@@ -615,11 +618,11 @@
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#PublicationYear"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Title"/>
-        <Class IRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#TokenThickness"/>
@@ -858,7 +861,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Book</IRI>
-        <Literal></Literal>
+        <Literal>Book.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -868,17 +871,17 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Card</IRI>
-        <Literal></Literal>
+        <Literal>The gaming card.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Cardboard</IRI>
-        <Literal></Literal>
+        <Literal>Cardboard.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Circle</IRI>
-        <Literal></Literal>
+        <Literal>Circle.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -888,7 +891,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Cube</IRI>
-        <Literal></Literal>
+        <Literal>Cube.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
@@ -908,7 +911,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Deck</IRI>
-        <Literal></Literal>
+        <Literal>The gaming deck.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -918,7 +921,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Dice</IRI>
-        <Literal></Literal>
+        <Literal>Dice.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1052,6 +1055,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasShape</IRI>
+        <Literal>The shape of the component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#HasWidth</IRI>
         <Literal>Width, in millimeters.</Literal>
     </AnnotationAssertion>
@@ -1068,7 +1076,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Manual</IRI>
-        <Literal></Literal>
+        <Literal>A manual or rulebook.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1078,7 +1086,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Miniature</IRI>
-        <Literal></Literal>
+        <Literal>A miniature.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1098,7 +1106,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Paper</IRI>
-        <Literal></Literal>
+        <Literal>Paper.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1123,7 +1131,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Plastic</IRI>
-        <Literal></Literal>
+        <Literal>Plastic.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1138,32 +1146,32 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Pyramid</IRI>
-        <Literal></Literal>
+        <Literal>Parallelepipedo rettangolo</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Pyramid</IRI>
-        <Literal>Parallelepipedo rettangolo</Literal>
+        <Literal>Pyramid.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Range</IRI>
-        <Literal></Literal>
+        <Literal>A range between min and max.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Rectangle</IRI>
-        <Literal></Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#RectangularCuboid</IRI>
-        <Literal></Literal>
+        <Literal>Rectangle.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#RectangularCuboid</IRI>
         <Literal>Parallelepipedo rettangolo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RectangularCuboid</IRI>
+        <Literal>Rectangular cuboid.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1183,27 +1191,27 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Shape</IRI>
-        <Literal></Literal>
+        <Literal>A generic shape.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Shape2D</IRI>
-        <Literal></Literal>
+        <Literal>A generic 2D shape.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Shape3D</IRI>
-        <Literal></Literal>
+        <Literal>A generic 3D shape.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Sphere</IRI>
-        <Literal></Literal>
+        <Literal>Sphere</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Square</IRI>
-        <Literal></Literal>
+        <Literal>Square.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1223,7 +1231,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Triangle</IRI>
-        <Literal></Literal>
+        <Literal>Triangle.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1233,7 +1241,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Wood</IRI>
-        <Literal></Literal>
+        <Literal>Wood.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="game:HasMinimum"/>
