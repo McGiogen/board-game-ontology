@@ -244,6 +244,9 @@
         <ObjectProperty IRI="#HasHeight"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#HasShape"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#MadeOf"/>
     </Declaration>
     <Declaration>
@@ -583,6 +586,10 @@
         <Class IRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#HasShape"/>
+        <Class IRI="#GameComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasWidth"/>
         <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
@@ -709,6 +716,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasPublisher"/>
         <Class IRI="#Publisher"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#HasShape"/>
+        <Class IRI="#Shape"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasWidth"/>
