@@ -499,24 +499,24 @@
     
     <game:HasArtist>
       <rdf:Bag>
-        <rdf:li rdf:resource="#A0001" />
-        <rdf:li rdf:resource="#A0002" />
-        <rdf:li rdf:resource="#A0003" />
+        <rdf:_1 rdf:resource="#A0001" />
+        <rdf:_2 rdf:resource="#A0002" />
+        <rdf:_3 rdf:resource="#A0003" />
       </rdf:Bag>
     </game:HasArtist>
     
     <game:HasDesigner>
       <rdf:Bag>
-        <rdf:li rdf:resource="#D0001" />
-        <rdf:li rdf:resource="#D0002" />
+        <rdf:_1 rdf:resource="#D0001" />
+        <rdf:_2 rdf:resource="#D0002" />
       </rdf:Bag>
     </game:HasDesigner>
     
     <game:Family>
       <rdf:Bag>
-        <rdf:li rdf:resource="#F0001" />
-        <rdf:li rdf:resource="#F0002" />
-        <rdf:li rdf:resource="#F0003" />
+        <rdf:_1 rdf:resource="#F0001" />
+        <rdf:_2 rdf:resource="#F0002" />
+        <rdf:_3 rdf:resource="#F0003" />
       </rdf:Bag>
     </game:Family>
     
@@ -524,24 +524,24 @@
       <game:Box>
         <game:HasComponent>
           <rdf:Bag>
-            <rdf:li>
+            <rdf:_1>
               <game:Manual>
                 <game:Pages>24</game:Pages>
               </game:Manual>
-            </rdf:li>
-            <rdf:li>
+            </rdf:_1>
+            <rdf:_2>
               <game:Book>
                 <foaf:name>Traitor's Tome</foaf:name>
                 <game:Pages>70</game:Pages>
               </game:Book>
-            </rdf:li>
-            <rdf:li>
+            </rdf:_2>
+            <rdf:_3>
               <game:Book>
                 <foaf:name>Secrets of Survival</foaf:name>
                 <game:Pages>80</game:Pages>
               </game:Book>
-            </rdf:li>
-            <rdf:li>
+            </rdf:_3>
+            <rdf:_4>
               <game:Miniature>
                 <game:hasBase>
                   <game:Circle></game:Circle>
@@ -551,15 +551,15 @@
                   <game:Plastic></game:Plastic>
                 </game:MadeOf>
               </game:Miniature>
-            </rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
-            <rdf:li rdf:resource="#D6"></rdf:li>
+            </rdf:_4>
+            <rdf:_5 rdf:resource="#D6" />
+            <rdf:_6 rdf:resource="#D6" />
+            <rdf:_7 rdf:resource="#D6" />
+            <rdf:_8 rdf:resource="#D6" />
+            <rdf:_9 rdf:resource="#D6" />
+            <rdf:_10 rdf:resource="#D6" />
+            <rdf:_11 rdf:resource="#D6" />
+            <rdf:_12 rdf:resource="#D6" />
           </rdf:Bag>
         </game:HasComponent>
       </game:Box>
