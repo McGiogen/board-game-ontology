@@ -158,9 +158,6 @@
         <Class abbreviatedIRI="rdf:Bag"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="foaf:Document"/>
     </Declaration>
     <Declaration>
@@ -536,51 +533,51 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Range"/>
-        <AnonymousIndividual nodeID="_:genid2147483660"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Box"/>
-        <AnonymousIndividual nodeID="_:genid2147483661"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Manual"/>
-        <AnonymousIndividual nodeID="_:genid2147483662"/>
+        <AnonymousIndividual nodeID="_:genid2147483674"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483663"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483664"/>
+        <AnonymousIndividual nodeID="_:genid2147483676"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Miniature"/>
-        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Circle"/>
-        <AnonymousIndividual nodeID="_:genid2147483666"/>
+        <AnonymousIndividual nodeID="_:genid2147483678"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Plastic"/>
-        <AnonymousIndividual nodeID="_:genid2147483667"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483668"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483669"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483670"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
     </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Age"/>
@@ -879,7 +876,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Age"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483660"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Edition"/>
@@ -889,7 +886,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Family"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483668"/>
+        <AnonymousIndividual nodeID="_:genid2147483680"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#GameDescription"/>
@@ -903,17 +900,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasArtist"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483670"/>
+        <AnonymousIndividual nodeID="_:genid2147483682"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasBox"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483661"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasDesigner"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483669"/>
+        <AnonymousIndividual nodeID="_:genid2147483681"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasPublisher"/>
@@ -1637,53 +1634,53 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasMinimum"/>
-        <AnonymousIndividual nodeID="_:genid2147483660"/>
+        <AnonymousIndividual nodeID="_:genid2147483672"/>
         <Literal>6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasComponent"/>
-        <AnonymousIndividual nodeID="_:genid2147483661"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <AnonymousIndividual nodeID="_:genid2147483683"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483662"/>
+        <AnonymousIndividual nodeID="_:genid2147483674"/>
         <Literal>24</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483663"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
         <Literal>70</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483663"/>
+        <AnonymousIndividual nodeID="_:genid2147483675"/>
         <Literal>Traitor&apos;s Tome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483664"/>
+        <AnonymousIndividual nodeID="_:genid2147483676"/>
         <Literal>80</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483664"/>
+        <AnonymousIndividual nodeID="_:genid2147483676"/>
         <Literal>Secrets of Survival</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#ComponentDescription"/>
-        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
         <Literal>Halfling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#MadeOf"/>
-        <AnonymousIndividual nodeID="_:genid2147483665"/>
-        <AnonymousIndividual nodeID="_:genid2147483667"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
+        <AnonymousIndividual nodeID="_:genid2147483679"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasBase"/>
-        <AnonymousIndividual nodeID="_:genid2147483665"/>
-        <AnonymousIndividual nodeID="_:genid2147483666"/>
+        <AnonymousIndividual nodeID="_:genid2147483677"/>
+        <AnonymousIndividual nodeID="_:genid2147483678"/>
     </AnnotationAssertion>
 </Ontology>
 
