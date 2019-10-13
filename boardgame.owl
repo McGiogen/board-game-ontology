@@ -7,14 +7,51 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      ontologyIRI="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology"
      versionIRI="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology/1.0.0">
-    <Prefix name="game" IRI="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#"/>
+    <Prefix name="" IRI="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="game" IRI="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="dbpedia" IRI="http://dbpedia.org/ontology/"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="it">Ontologia che definisce i giochi da tavolo ed i relativi componenti.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <Literal>Gioele Masini</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal>1.0.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:Agent"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:Award"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:Colour"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:Game"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:Image"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:Language"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="dbpedia:series"/>
+    </Declaration>
     <Declaration>
         <Class IRI="#Artist"/>
     </Declaration>
@@ -115,49 +152,34 @@
         <Class IRI="#Wood"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasPublisher"/>
+        <Class abbreviatedIRI="rdf:Bag"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasColour"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasLanguage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#PaperSize"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="game:hasBase"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasPhoto"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:BoardGame"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#GameDescription"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:series"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Weight"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#F0002"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#F0003"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#F0001"/>
+        <Class abbreviatedIRI="rdfs:Literal"/>
     </Declaration>
     <Declaration>
         <Class abbreviatedIRI="foaf:Document"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasBox"/>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Award"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#BoardThickness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#ComponentDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Edition"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Faces"/>
@@ -166,94 +188,88 @@
         <ObjectProperty IRI="#Family"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#BoardThickness"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#D6"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#A000003"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#A000001"/>
+        <ObjectProperty IRI="#GameDescription"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasArtist"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#A000002"/>
+        <ObjectProperty IRI="#HasBase"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dbpedia:Award"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#PublicationYear"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="rdf:Bag"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Game"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="foaf:Person"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Language"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasMaximum"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#TokenThickness"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#P000001"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasMinimum"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Language"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasDesigner"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#NumberOfPlayers"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#ComponentDescription"/>
+        <ObjectProperty IRI="#HasBox"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasCard"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Edition"/>
+        <ObjectProperty IRI="#HasColour"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Age"/>
+        <ObjectProperty IRI="#HasComponent"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Duration"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Image"/>
+        <ObjectProperty IRI="#HasDesigner"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasHeight"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#HasLanguage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasMaximum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasMinimum"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasPhoto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasPublisher"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#HasShape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasWidth"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Language"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#MadeOf"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#D000002"/>
+        <ObjectProperty IRI="#NumberOfPlayers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Pages"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PaperSize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PublicationYear"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#TokenThickness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A000002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A000003"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#BG000001"/>
@@ -262,32 +278,36 @@
         <NamedIndividual IRI="#D000001"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dbpedia:Colour"/>
+        <NamedIndividual IRI="#D000002"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasComponent"/>
+        <NamedIndividual IRI="#D6"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasWidth"/>
+        <NamedIndividual IRI="#F0001"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Pages"/>
+        <NamedIndividual IRI="#F0002"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasBase"/>
+        <NamedIndividual IRI="#F0003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P000001"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasBase"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Award"/>
+        <Class IRI="#Family"/>
     </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Title"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Agent"/>
-    </Declaration>
+    <SubClassOf>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
+    </SubClassOf>
     <SubClassOf>
         <Class IRI="#Artist"/>
         <Class abbreviatedIRI="foaf:Person"/>
@@ -325,6 +345,13 @@
         <Class IRI="#GameComponent"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Deck"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#HasCard"/>
+            <Class IRI="#Card"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Designer"/>
         <Class abbreviatedIRI="foaf:Person"/>
     </SubClassOf>
@@ -335,6 +362,13 @@
     <SubClassOf>
         <Class IRI="#DiceGame"/>
         <Class abbreviatedIRI="dbpedia:Game"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DiceGame"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#HasComponent"/>
+            <Class IRI="#Dice"/>
+        </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Manual"/>
@@ -409,15 +443,15 @@
         <Class IRI="#Material"/>
     </SubClassOf>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Artist"/>
+        <Class IRI="#Artist"/>
         <NamedIndividual IRI="#A000001"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Artist"/>
+        <Class IRI="#Artist"/>
         <NamedIndividual IRI="#A000002"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Artist"/>
+        <Class IRI="#Artist"/>
         <NamedIndividual IRI="#A000003"/>
     </ClassAssertion>
     <ClassAssertion>
@@ -425,81 +459,121 @@
         <NamedIndividual IRI="#BG000001"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Designer"/>
+        <Class IRI="#Designer"/>
         <NamedIndividual IRI="#D000001"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Designer"/>
+        <Class IRI="#Designer"/>
         <NamedIndividual IRI="#D000002"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Dice"/>
+        <Class IRI="#Dice"/>
         <NamedIndividual IRI="#D6"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Family"/>
+        <Class IRI="#Family"/>
         <NamedIndividual IRI="#F0001"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Family"/>
+        <Class IRI="#Family"/>
         <NamedIndividual IRI="#F0002"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Family"/>
+        <Class IRI="#Family"/>
         <NamedIndividual IRI="#F0003"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Publisher"/>
+        <Class IRI="#Publisher"/>
         <NamedIndividual IRI="#P000001"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Range"/>
-        <AnonymousIndividual nodeID="_:genid2147483661"/>
+        <Class IRI="#Range"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class abbreviatedIRI="game:Box"/>
+        <Class IRI="#Box"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manual"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <AnonymousIndividual nodeID="_:genid2147483651"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Miniature"/>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Circle"/>
+        <AnonymousIndividual nodeID="_:genid2147483654"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plastic"/>
+        <AnonymousIndividual nodeID="_:genid2147483655"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="rdf:Bag"/>
+        <AnonymousIndividual nodeID="_:genid2147483656"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="rdf:Bag"/>
+        <AnonymousIndividual nodeID="_:genid2147483657"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="rdf:Bag"/>
+        <AnonymousIndividual nodeID="_:genid2147483658"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="rdf:Bag"/>
+        <AnonymousIndividual nodeID="_:genid2147483659"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Age"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <AnonymousIndividual nodeID="_:genid2147483667"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Family"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <AnonymousIndividual nodeID="_:genid2147483663"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasArtist"/>
+        <NamedIndividual IRI="#BG000001"/>
         <AnonymousIndividual nodeID="_:genid2147483666"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="game:Manual"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBox"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <AnonymousIndividual nodeID="_:genid2147483660"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasDesigner"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <AnonymousIndividual nodeID="_:genid2147483662"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasPublisher"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#P000001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasComponent"/>
+        <AnonymousIndividual nodeID="_:genid2147483664"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeOf"/>
+        <AnonymousIndividual nodeID="_:genid2147483668"/>
         <AnonymousIndividual nodeID="_:genid2147483669"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="game:Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="game:Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483673"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="game:Miniature"/>
-        <AnonymousIndividual nodeID="_:genid2147483675"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="game:Circle"/>
-        <AnonymousIndividual nodeID="_:genid2147483677"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="game:Plastic"/>
-        <AnonymousIndividual nodeID="_:genid2147483679"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483680"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483681"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483682"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483683"/>
-    </ClassAssertion>
+    </ObjectPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Age"/>
         <Class abbreviatedIRI="dbpedia:BoardGame"/>
@@ -795,22 +869,12 @@
         <Literal>The award of the game.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Age"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483661"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Edition"/>
+        <AnnotationProperty IRI="#Edition"/>
         <IRI>#BG000001</IRI>
         <Literal>1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Family"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483680"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:GameDescription"/>
+        <AnnotationProperty IRI="#GameDescription"/>
         <IRI>#BG000001</IRI>
         <Literal>
       Based on the award-winning Betrayal at House on the Hill board game, in Betrayal at Baldur&apos;s Gate
@@ -819,32 +883,12 @@
     </Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:HasArtist"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483682"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:HasBox"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483666"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:HasDesigner"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483681"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:HasPublisher"/>
-        <IRI>#BG000001</IRI>
-        <IRI>#P000001</IRI>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:PublicationYear"/>
+        <AnnotationProperty IRI="#PublicationYear"/>
         <IRI>#BG000001</IRI>
         <Literal>2017</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Title"/>
+        <AnnotationProperty IRI="#Title"/>
         <IRI>#BG000001</IRI>
         <Literal>Betrayal at Baldur&apos;s Gate</Literal>
     </AnnotationAssertion>
@@ -904,7 +948,7 @@
         <Literal>Mike Mearls</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Faces"/>
+        <AnnotationProperty IRI="#Faces"/>
         <IRI>#D6</IRI>
         <Literal>6</Literal>
     </AnnotationAssertion>
@@ -1244,54 +1288,44 @@
         <Literal>Wood.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:HasMinimum"/>
-        <AnonymousIndividual nodeID="_:genid2147483661"/>
+        <AnnotationProperty IRI="#HasMinimum"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
         <Literal>6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:HasComponent"/>
-        <AnonymousIndividual nodeID="_:genid2147483666"/>
-        <AnonymousIndividual nodeID="_:genid2147483683"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483669"/>
+        <AnnotationProperty IRI="#Pages"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
         <Literal>24</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <AnnotationProperty IRI="#Pages"/>
+        <AnonymousIndividual nodeID="_:genid2147483651"/>
         <Literal>70</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483671"/>
+        <AnonymousIndividual nodeID="_:genid2147483651"/>
         <Literal>Traitor&apos;s Tome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <AnnotationProperty IRI="#Pages"/>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
         <Literal>80</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483673"/>
+        <AnonymousIndividual nodeID="_:genid2147483652"/>
         <Literal>Secrets of Survival</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:ComponentDescription"/>
-        <AnonymousIndividual nodeID="_:genid2147483675"/>
+        <AnnotationProperty IRI="#ComponentDescription"/>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
         <Literal>Halfling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:MadeOf"/>
-        <AnonymousIndividual nodeID="_:genid2147483675"/>
-        <AnonymousIndividual nodeID="_:genid2147483679"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="game:hasBase"/>
-        <AnonymousIndividual nodeID="_:genid2147483675"/>
-        <AnonymousIndividual nodeID="_:genid2147483677"/>
+        <AnnotationProperty IRI="#hasBase"/>
+        <AnonymousIndividual nodeID="_:genid2147483653"/>
+        <AnonymousIndividual nodeID="_:genid2147483654"/>
     </AnnotationAssertion>
 </Ontology>
 
