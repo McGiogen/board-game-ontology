@@ -89,6 +89,9 @@
         <Class IRI="#DiceGame"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Family"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#GameComponent"/>
     </Declaration>
     <Declaration>
@@ -152,40 +155,139 @@
         <Class IRI="#Wood"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#HasPublisher"/>
+        <Class abbreviatedIRI="rdf:Bag"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="rdfs:Literal"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Document"/>
+    </Declaration>
+    <Declaration>
+        <Class abbreviatedIRI="foaf:Person"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Age"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Award"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Duration"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasArtist"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasBase"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasBox"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasCard"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasColour"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#HasComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#HasDesigner"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#HasLanguage"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#PaperSize"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Publisher"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#hasBase"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasPhoto"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#MadeOf"/>
+        <ObjectProperty IRI="#HasPublisher"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dbpedia:BoardGame"/>
+        <ObjectProperty IRI="#HasShape"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#GameDescription"/>
+        <ObjectProperty IRI="#Language"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dbpedia:series"/>
+        <ObjectProperty IRI="#MadeOf"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Weight"/>
+        <ObjectProperty IRI="#NumberOfPlayers"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#BoardThickness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ComponentDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Edition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Faces"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GameDescription"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasHeight"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasMaximum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasMinimum"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HasWidth"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Pages"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PaperSize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#PublicationYear"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TokenThickness"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Weight"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A000002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#A000003"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BG000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D000002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#F0001"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#F0002"/>
@@ -194,61 +296,31 @@
         <NamedIndividual IRI="#F0003"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#F0001"/>
+        <NamedIndividual IRI="#P000001"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Designer"/>
+        <AnnotationProperty IRI="#Age"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#HasPublisher"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#GameDescription"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="foaf:Document"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasBox"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Faces"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Family"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#BoardThickness"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#D6"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#A000003"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#A000001"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasArtist"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#A000002"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Award"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#Title"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="rdfs:Literal"/>
+        <AnnotationProperty IRI="#ComponentDescription"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#Edition"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#PublicationYear"/>
+        <AnnotationProperty IRI="#Faces"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#GameDescription"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#HasArtist"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#HasBox"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#HasComponent"/>
@@ -257,160 +329,28 @@
         <AnnotationProperty IRI="#HasDesigner"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#Pages"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="rdf:Bag"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Game"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="foaf:Person"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Book"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Language"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasMaximum"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#TokenThickness"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#P000001"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasMinimum"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Language"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Dice"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasDesigner"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Circle"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#NumberOfPlayers"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:BoardGame"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Plastic"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Miniature"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#ComponentDescription"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasCard"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Edition"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#Family"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#HasBox"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#ComponentDescription"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Family"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Age"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Duration"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Image"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasHeight"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasShape"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#MadeOf"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#D000002"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#BG000001"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#Age"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#D000001"/>
-    </Declaration>
-    <Declaration>
-        <Class abbreviatedIRI="dbpedia:Colour"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasComponent"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasWidth"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Manual"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Range"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#Pages"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Artist"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#HasBase"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="#HasArtist"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty abbreviatedIRI="foaf:name"/>
-    </Declaration>
-    <Declaration>
         <AnnotationProperty IRI="#HasMinimum"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Award"/>
+        <AnnotationProperty IRI="#HasPublisher"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#Title"/>
+        <AnnotationProperty IRI="#MadeOf"/>
     </Declaration>
     <Declaration>
-        <AnnotationProperty IRI="#Faces"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Box"/>
+        <AnnotationProperty IRI="#Pages"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#PublicationYear"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="dbpedia:Agent"/>
+        <AnnotationProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#hasBase"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
     </Declaration>
     <SubClassOf>
         <Class abbreviatedIRI="dbpedia:BoardGame"/>
