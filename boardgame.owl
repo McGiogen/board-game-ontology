@@ -536,51 +536,51 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Range"/>
-        <AnonymousIndividual nodeID="_:genid2147483885"/>
+        <AnonymousIndividual nodeID="_:genid2147483660"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Box"/>
-        <AnonymousIndividual nodeID="_:genid2147483890"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Manual"/>
-        <AnonymousIndividual nodeID="_:genid2147483893"/>
+        <AnonymousIndividual nodeID="_:genid2147483662"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483895"/>
+        <AnonymousIndividual nodeID="_:genid2147483663"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Book"/>
-        <AnonymousIndividual nodeID="_:genid2147483897"/>
+        <AnonymousIndividual nodeID="_:genid2147483664"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Miniature"/>
-        <AnonymousIndividual nodeID="_:genid2147483899"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Circle"/>
-        <AnonymousIndividual nodeID="_:genid2147483901"/>
+        <AnonymousIndividual nodeID="_:genid2147483666"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Plastic"/>
-        <AnonymousIndividual nodeID="_:genid2147483903"/>
+        <AnonymousIndividual nodeID="_:genid2147483667"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483904"/>
+        <AnonymousIndividual nodeID="_:genid2147483668"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483905"/>
+        <AnonymousIndividual nodeID="_:genid2147483669"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483906"/>
+        <AnonymousIndividual nodeID="_:genid2147483670"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483907"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
     </ClassAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Age"/>
@@ -591,31 +591,11 @@
         <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#BoardThickness"/>
-        <Class IRI="#Board"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#ComponentDescription"/>
-        <Class IRI="#GameComponent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#Duration"/>
         <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Edition"/>
-        <Class abbreviatedIRI="dbpedia:BoardGame"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Faces"/>
-        <Class IRI="#Dice"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#Family"/>
-        <Class abbreviatedIRI="dbpedia:BoardGame"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#GameDescription"/>
         <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -647,20 +627,8 @@
         <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#HasHeight"/>
-        <Class IRI="#GameComponent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasLanguage"/>
         <Class IRI="#Board"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#HasMaximum"/>
-        <Class IRI="#Range"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#HasMinimum"/>
-        <Class IRI="#Range"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasPhoto"/>
@@ -675,10 +643,6 @@
         <Class IRI="#GameComponent"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#HasWidth"/>
-        <Class IRI="#GameComponent"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
         <ObjectProperty IRI="#Language"/>
         <Class IRI="#Book"/>
     </ObjectPropertyDomain>
@@ -690,30 +654,6 @@
         <ObjectProperty IRI="#NumberOfPlayers"/>
         <Class abbreviatedIRI="dbpedia:BoardGame"/>
     </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Pages"/>
-        <Class IRI="#Book"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#PaperSize"/>
-        <Class IRI="#Paper"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#PublicationYear"/>
-        <Class abbreviatedIRI="dbpedia:BoardGame"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Title"/>
-        <Class abbreviatedIRI="dbpedia:BoardGame"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#TokenThickness"/>
-        <Class IRI="#Token"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#Weight"/>
-        <Class IRI="#Paper"/>
-    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#Age"/>
         <Class IRI="#Range"/>
@@ -723,32 +663,12 @@
         <Class abbreviatedIRI="dbpedia:Award"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#BoardThickness"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#ComponentDescription"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#Duration"/>
         <Class IRI="#Range"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#Edition"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#Faces"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#Family"/>
         <Class abbreviatedIRI="dbpedia:series"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#GameDescription"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasArtist"/>
@@ -779,20 +699,8 @@
         <Class IRI="#Designer"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#HasHeight"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#HasLanguage"/>
         <Class abbreviatedIRI="dbpedia:Language"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#HasMaximum"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#HasMinimum"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasPhoto"/>
@@ -807,10 +715,6 @@
         <Class IRI="#Shape"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#HasWidth"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
         <ObjectProperty IRI="#Language"/>
         <Class abbreviatedIRI="dbpedia:Language"/>
     </ObjectPropertyRange>
@@ -822,30 +726,126 @@
         <ObjectProperty IRI="#NumberOfPlayers"/>
         <Class IRI="#Range"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#Pages"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#PaperSize"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#PublicationYear"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#Title"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#TokenThickness"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#Weight"/>
-        <Class abbreviatedIRI="rdfs:Literal"/>
-    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#BoardThickness"/>
+        <Class IRI="#Board"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ComponentDescription"/>
+        <Class IRI="#GameComponent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Edition"/>
+        <Class abbreviatedIRI="dbpedia:BoardGame"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Faces"/>
+        <Class IRI="#Dice"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GameDescription"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasHeight"/>
+        <Class IRI="#GameComponent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasMaximum"/>
+        <Class IRI="#Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasMinimum"/>
+        <Class IRI="#Range"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HasWidth"/>
+        <Class IRI="#GameComponent"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Pages"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PaperSize"/>
+        <Class IRI="#Paper"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#PublicationYear"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class abbreviatedIRI="dbpedia:Game"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TokenThickness"/>
+        <Class IRI="#Token"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Weight"/>
+        <Class IRI="#Paper"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#BoardThickness"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ComponentDescription"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Edition"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Faces"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#GameDescription"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasHeight"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasMaximum"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasMinimum"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#HasWidth"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Pages"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PaperSize"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#PublicationYear"/>
+        <Datatype abbreviatedIRI="xsd:positiveInteger"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Title"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TokenThickness"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Weight"/>
+        <Datatype abbreviatedIRI="rdfs:Literal"/>
+    </DataPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
         <IRI>#A000001</IRI>
@@ -879,7 +879,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Age"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483885"/>
+        <AnonymousIndividual nodeID="_:genid2147483660"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Edition"/>
@@ -889,7 +889,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Family"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483904"/>
+        <AnonymousIndividual nodeID="_:genid2147483668"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#GameDescription"/>
@@ -903,17 +903,17 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasArtist"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483906"/>
+        <AnonymousIndividual nodeID="_:genid2147483670"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasBox"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483890"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasDesigner"/>
         <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483905"/>
+        <AnonymousIndividual nodeID="_:genid2147483669"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasPublisher"/>
@@ -1322,58 +1322,368 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Book</IRI>
+        <Literal>Book.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Box</IRI>
+        <Literal>Scatola del gioco.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Card</IRI>
+        <Literal>The gaming card.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cardboard</IRI>
+        <Literal>Cardboard.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Circle</IRI>
+        <Literal>Circle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cube</IRI>
+        <Literal>Cube.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <IRI>#D000001</IRI>
+        <Literal>Chris Dupuis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <IRI>#D000002</IRI>
+        <Literal>Mike Mearls</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#D6</IRI>
+        <Literal>6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Deck</IRI>
+        <Literal>The gaming deck.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Designer</IRI>
+        <Literal>Any type of designer.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Dice</IRI>
+        <Literal>Dice.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DiceGame</IRI>
+        <Literal xml:lang="en">game in which dice are the central component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DiceGame</IRI>
+        <Literal xml:lang="it">gioco basato sul lancio di dadi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiceGame</IRI>
+        <Literal xml:lang="en">dice game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#DiceGame</IRI>
+        <Literal xml:lang="it">gioco di dadi</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Duration</IRI>
+        <Literal>The duration of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#F0001</IRI>
+        <Literal>Betrayal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#F0002</IRI>
+        <Literal>Dungeons &amp; Dragons</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#F0003</IRI>
+        <Literal>Baldur&apos;s Gate</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Family</IRI>
+        <Literal>The family of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GameComponent</IRI>
+        <Literal>Generic piece of a game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasArtist</IRI>
+        <Literal>The artist of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasBase</IRI>
+        <Literal>The base of the miniature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasBox</IRI>
+        <Literal>A box of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasCard</IRI>
+        <Literal>A card of the deck.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasColour</IRI>
+        <Literal>The main colour of the component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasComponent</IRI>
+        <Literal>A component of the box.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasDesigner</IRI>
+        <Literal>The designer of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasLanguage</IRI>
+        <Literal>The language of the text of the board.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasPhoto</IRI>
+        <Literal>A photo of the component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasPublisher</IRI>
+        <Literal>The publisher of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HasShape</IRI>
+        <Literal>The shape of the component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Language</IRI>
+        <Literal>The language of the text of the book.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MadeOf</IRI>
+        <Literal>Material used to make the component.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Manual</IRI>
+        <Literal>A manual or rulebook.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Material</IRI>
+        <Literal>Physical material.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Miniature</IRI>
+        <Literal>A miniature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NumberOfPlayers</IRI>
+        <Literal>The number of players of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="foaf:name"/>
+        <IRI>#P000001</IRI>
+        <Literal>Avalon Hill Games, Inc.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Paper</IRI>
+        <Literal>Paper.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PaperAndPencilGame</IRI>
+        <Literal xml:lang="it">Gioco in cui i giocatori assumono il ruolo di personaggi in un ambiente immaginario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaperAndPencilGame</IRI>
+        <Literal xml:lang="it">gioco di carta e matita</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PaperAndPencilGame</IRI>
+        <Literal xml:lang="en">paper and pencil game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Plastic</IRI>
+        <Literal>Plastic.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Publisher</IRI>
+        <Literal>The publisher of the game.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pyramid</IRI>
+        <Literal>Parallelepipedo rettangolo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pyramid</IRI>
+        <Literal>Pyramid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Range</IRI>
+        <Literal>A range between min and max.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Rectangle</IRI>
+        <Literal>Rectangle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RectangularCuboid</IRI>
+        <Literal>Parallelepipedo rettangolo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RectangularCuboid</IRI>
+        <Literal>Rectangular cuboid.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#RolePlayingGame</IRI>
+        <Literal xml:lang="it">Gioco in cui i giocatori assumono il ruolo di personaggi in un ambiente immaginario</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RolePlayingGame</IRI>
+        <Literal xml:lang="it">gioco di ruolo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RolePlayingGame</IRI>
+        <Literal xml:lang="en">role playing game</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shape</IRI>
+        <Literal>A generic shape.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shape2D</IRI>
+        <Literal>A generic 2D shape.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Shape3D</IRI>
+        <Literal>A generic 3D shape.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sphere</IRI>
+        <Literal>Sphere</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Square</IRI>
+        <Literal>Square.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Token</IRI>
+        <Literal>Forma 2D con uno spessore</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Triangle</IRI>
+        <Literal>Triangle.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Wood</IRI>
         <Literal>Wood.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasMinimum"/>
-        <AnonymousIndividual nodeID="_:genid2147483885"/>
+        <AnonymousIndividual nodeID="_:genid2147483660"/>
         <Literal>6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasComponent"/>
-        <AnonymousIndividual nodeID="_:genid2147483890"/>
-        <AnonymousIndividual nodeID="_:genid2147483907"/>
+        <AnonymousIndividual nodeID="_:genid2147483661"/>
+        <AnonymousIndividual nodeID="_:genid2147483671"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483893"/>
+        <AnonymousIndividual nodeID="_:genid2147483662"/>
         <Literal>24</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483895"/>
+        <AnonymousIndividual nodeID="_:genid2147483663"/>
         <Literal>70</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483895"/>
+        <AnonymousIndividual nodeID="_:genid2147483663"/>
         <Literal>Traitor&apos;s Tome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Pages"/>
-        <AnonymousIndividual nodeID="_:genid2147483897"/>
+        <AnonymousIndividual nodeID="_:genid2147483664"/>
         <Literal>80</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
-        <AnonymousIndividual nodeID="_:genid2147483897"/>
+        <AnonymousIndividual nodeID="_:genid2147483664"/>
         <Literal>Secrets of Survival</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#ComponentDescription"/>
-        <AnonymousIndividual nodeID="_:genid2147483899"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
         <Literal>Halfling</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#MadeOf"/>
-        <AnonymousIndividual nodeID="_:genid2147483899"/>
-        <AnonymousIndividual nodeID="_:genid2147483903"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <AnonymousIndividual nodeID="_:genid2147483667"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#hasBase"/>
-        <AnonymousIndividual nodeID="_:genid2147483899"/>
-        <AnonymousIndividual nodeID="_:genid2147483901"/>
+        <AnonymousIndividual nodeID="_:genid2147483665"/>
+        <AnonymousIndividual nodeID="_:genid2147483666"/>
     </AnnotationAssertion>
 </Ontology>
 
