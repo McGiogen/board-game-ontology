@@ -157,9 +157,6 @@
         <Class IRI="#Wood"/>
     </Declaration>
     <Declaration>
-        <Class abbreviatedIRI="rdf:Bag"/>
-    </Declaration>
-    <Declaration>
         <Class abbreviatedIRI="foaf:Document"/>
     </Declaration>
     <Declaration>
@@ -277,13 +274,25 @@
         <NamedIndividual IRI="#BG000001"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#BG000001Manual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BOX000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book000002"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Circle"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#D000001"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#D000002"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="#D6"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#F0001"/>
@@ -295,7 +304,37 @@
         <NamedIndividual IRI="#F0003"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI="#HalflingMiniature"/>
+    </Declaration>
+    <Declaration>
         <NamedIndividual IRI="#P000001"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Plastic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_3e522175_949f_46a2_ae28_a039e4de4a66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_4c3f1356_9d65_4a12_bcae_13d9f973abdc"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_60719721_9550_4500_bbc4_675dbea69351"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_943086e7_fbb0_47d1_b18e_c91266a9f823"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_da1eac83_c4fe_4e8d_9653_8eb84667e563"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_db0ba692_9fd6_4b67_bc4f_cfea606c3d33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dice_eed1f76d_7a82_4233_ae3e_51ce690154b5"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="#Age"/>
@@ -506,16 +545,36 @@
         <NamedIndividual IRI="#BG000001"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#DiceGame"/>
+        <NamedIndividual IRI="#BG000001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#RolePlayingGame"/>
+        <NamedIndividual IRI="#BG000001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Manual"/>
+        <NamedIndividual IRI="#BG000001Manual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Book000001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Book"/>
+        <NamedIndividual IRI="#Book000002"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Circle"/>
+        <NamedIndividual IRI="#Circle"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Designer"/>
         <NamedIndividual IRI="#D000001"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Designer"/>
         <NamedIndividual IRI="#D000002"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="#Dice"/>
-        <NamedIndividual IRI="#D6"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Family"/>
@@ -530,8 +589,48 @@
         <NamedIndividual IRI="#F0003"/>
     </ClassAssertion>
     <ClassAssertion>
+        <Class IRI="#Miniature"/>
+        <NamedIndividual IRI="#HalflingMiniature"/>
+    </ClassAssertion>
+    <ClassAssertion>
         <Class IRI="#Publisher"/>
         <NamedIndividual IRI="#P000001"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Plastic"/>
+        <NamedIndividual IRI="#Plastic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_3e522175_949f_46a2_ae28_a039e4de4a66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_4c3f1356_9d65_4a12_bcae_13d9f973abdc"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_60719721_9550_4500_bbc4_675dbea69351"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_943086e7_fbb0_47d1_b18e_c91266a9f823"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_da1eac83_c4fe_4e8d_9653_8eb84667e563"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_db0ba692_9fd6_4b67_bc4f_cfea606c3d33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dice"/>
+        <NamedIndividual IRI="#dice_eed1f76d_7a82_4233_ae3e_51ce690154b5"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Range"/>
@@ -565,22 +664,111 @@
         <Class IRI="#Plastic"/>
         <AnonymousIndividual nodeID="_:genid2147483655"/>
     </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483656"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483657"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483658"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class abbreviatedIRI="rdf:Bag"/>
-        <AnonymousIndividual nodeID="_:genid2147483659"/>
-    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Family"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#F0001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Family"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#F0002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Family"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#F0003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasArtist"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#A000001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasArtist"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#A000002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasArtist"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#A000003"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBox"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#BOX000001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasDesigner"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#D000001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasDesigner"/>
+        <NamedIndividual IRI="#BG000001"/>
+        <NamedIndividual IRI="#D000002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasComponent"/>
+        <NamedIndividual IRI="#BOX000001"/>
+        <NamedIndividual IRI="#BG000001Manual"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasComponent"/>
+        <NamedIndividual IRI="#BOX000001"/>
+        <NamedIndividual IRI="#Book000001"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasComponent"/>
+        <NamedIndividual IRI="#BOX000001"/>
+        <NamedIndividual IRI="#Book000002"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasComponent"/>
+        <NamedIndividual IRI="#BOX000001"/>
+        <NamedIndividual IRI="#HalflingMiniature"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasComponent"/>
+        <NamedIndividual IRI="#BOX000001"/>
+        <NamedIndividual IRI="#dice_3e522175_949f_46a2_ae28_a039e4de4a66"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasComponent"/>
+        <NamedIndividual IRI="#BOX000001"/>
+        <NamedIndividual IRI="#dice_60719721_9550_4500_bbc4_675dbea69351"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#HasBase"/>
+        <NamedIndividual IRI="#HalflingMiniature"/>
+        <NamedIndividual IRI="#Circle"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#MadeOf"/>
+        <NamedIndividual IRI="#HalflingMiniature"/>
+        <NamedIndividual IRI="#Plastic"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pages"/>
+        <NamedIndividual IRI="#BG000001Manual"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">24</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pages"/>
+        <NamedIndividual IRI="#Book000001"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Pages"/>
+        <NamedIndividual IRI="#Book000002"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ComponentDescription"/>
+        <NamedIndividual IRI="#HalflingMiniature"/>
+        <Literal>Halfling</Literal>
+    </DataPropertyAssertion>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Age"/>
         <Class abbreviatedIRI="dbo:BoardGame"/>
@@ -886,31 +1074,11 @@
         <Literal>1</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty IRI="#Family"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483656"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
         <AnnotationProperty IRI="#GameDescription"/>
         <IRI>#BG000001</IRI>
         <Literal>Based on the award-winning Betrayal at House on the Hill board game, in Betrayal at Baldur&apos;s Gate
       you&apos;ll return to Baldur&apos;s Gate again and again thanks to the fifty included scenarios only to discover it&apos;s never the same game twice.
       Can you and your party survive the madness, or will you succumb to the mayhem and split (or slaughter!) the party?</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#HasArtist"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483658"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#HasBox"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#HasDesigner"/>
-        <IRI>#BG000001</IRI>
-        <AnonymousIndividual nodeID="_:genid2147483657"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#HasPublisher"/>
@@ -941,6 +1109,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Book</IRI>
         <Literal>Book.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Book000001</IRI>
+        <Literal>Secrets of Survival</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Book000002</IRI>
+        <Literal>Traitor&apos;s Tome</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -981,11 +1159,6 @@
         <AnnotationProperty abbreviatedIRI="foaf:name"/>
         <IRI>#D000002</IRI>
         <Literal>Mike Mearls</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#Faces"/>
-        <IRI>#D6</IRI>
-        <Literal>6</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -1323,14 +1496,89 @@
         <Literal>Wood.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_3e522175_949f_46a2_ae28_a039e4de4a66</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_3e522175_949f_46a2_ae28_a039e4de4a66</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_4c3f1356_9d65_4a12_bcae_13d9f973abdc</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_4c3f1356_9d65_4a12_bcae_13d9f973abdc</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_60719721_9550_4500_bbc4_675dbea69351</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_60719721_9550_4500_bbc4_675dbea69351</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_943086e7_fbb0_47d1_b18e_c91266a9f823</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_943086e7_fbb0_47d1_b18e_c91266a9f823</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_da1eac83_c4fe_4e8d_9653_8eb84667e563</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_da1eac83_c4fe_4e8d_9653_8eb84667e563</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_db0ba692_9fd6_4b67_bc4f_cfea606c3d33</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_db0ba692_9fd6_4b67_bc4f_cfea606c3d33</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#Faces"/>
+        <IRI>#dice_eed1f76d_7a82_4233_ae3e_51ce690154b5</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#positiveInteger">6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#dice_eed1f76d_7a82_4233_ae3e_51ce690154b5</IRI>
+        <Literal xml:lang="it">D6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="#HasMinimum"/>
         <AnonymousIndividual nodeID="_:genid2147483648"/>
         <Literal>6</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="#HasComponent"/>
-        <AnonymousIndividual nodeID="_:genid2147483649"/>
-        <AnonymousIndividual nodeID="_:genid2147483659"/>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="#Pages"/>
