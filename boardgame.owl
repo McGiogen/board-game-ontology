@@ -166,13 +166,22 @@
         <ObjectProperty IRI="#Age"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#ArtistiOf"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#Award"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DesignerOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Duration"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#Family"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#FamilyOf"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#HasArtist"/>
@@ -215,6 +224,12 @@
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#NumberOfPlayers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PhotoOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#PublisherOf"/>
     </Declaration>
     <Declaration>
         <DataProperty IRI="#BoardThickness"/>
@@ -769,13 +784,51 @@
         <NamedIndividual IRI="#HalflingMiniature"/>
         <Literal>Halfling</Literal>
     </DataPropertyAssertion>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#ArtistiOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#DesignerOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Family"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#FamilyOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#HasArtist"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#HasDesigner"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#HasPhoto"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#HasPublisher"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#PhotoOf"/>
+    </InverseFunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#PublisherOf"/>
+    </InverseFunctionalObjectProperty>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Age"/>
         <Class abbreviatedIRI="dbo:BoardGame"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#ArtistiOf"/>
+        <Class IRI="#Artist"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#Award"/>
         <Class abbreviatedIRI="dbo:BoardGame"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DesignerOf"/>
+        <Class IRI="#Designer"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Duration"/>
@@ -784,6 +837,10 @@
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#Family"/>
         <Class abbreviatedIRI="dbo:BoardGame"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#FamilyOf"/>
+        <Class abbreviatedIRI="dbo:series"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#HasArtist"/>
@@ -841,13 +898,29 @@
         <ObjectProperty IRI="#NumberOfPlayers"/>
         <Class abbreviatedIRI="dbo:BoardGame"/>
     </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PhotoOf"/>
+        <Class IRI="#GameComponent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#PublisherOf"/>
+        <Class IRI="#Publisher"/>
+    </ObjectPropertyDomain>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#Age"/>
         <Class IRI="#Range"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#ArtistiOf"/>
+        <Class abbreviatedIRI="dbo:BoardGame"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#Award"/>
         <Class abbreviatedIRI="dbo:Award"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DesignerOf"/>
+        <Class abbreviatedIRI="dbo:BoardGame"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#Duration"/>
@@ -856,6 +929,10 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#Family"/>
         <Class abbreviatedIRI="dbo:series"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#FamilyOf"/>
+        <Class abbreviatedIRI="dbo:BoardGame"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#HasArtist"/>
@@ -912,6 +989,14 @@
     <ObjectPropertyRange>
         <ObjectProperty IRI="#NumberOfPlayers"/>
         <Class IRI="#Range"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PhotoOf"/>
+        <Class abbreviatedIRI="dbo:Image"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#PublisherOf"/>
+        <Class abbreviatedIRI="dbo:BoardGame"/>
     </ObjectPropertyRange>
     <DataPropertyDomain>
         <DataProperty IRI="#BoardThickness"/>
