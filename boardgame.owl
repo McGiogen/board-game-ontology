@@ -833,7 +833,7 @@
         <foaf:lastName>Hübrich</foaf:lastName>
         <rdfs:label>Aaron Hübrich</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#A000002 -->
@@ -845,7 +845,7 @@
         <foaf:lastName>Jacobson</foaf:lastName>
         <rdfs:label>Tyler Jacobson</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#A000003 -->
@@ -857,7 +857,7 @@
         <foaf:lastName>Okumura</foaf:lastName>
         <rdfs:label>Scott Okumura</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001 -->
@@ -879,7 +879,7 @@
         <rdfs:label>Betrayal at Baldur&apos;s Gate</rdfs:label>
         <foaf:name>Betrayal at Baldur&apos;s Gate</foaf:name>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001Manual -->
@@ -888,7 +888,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Manual"/>
         <rdfs:label>Manual of Betrayal at Baldur&apos;s Gate</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000002 -->
@@ -904,7 +904,7 @@
         <boardgame:title>Bang!</boardgame:title>
         <rdfs:label>Bang!</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000001 -->
@@ -918,7 +918,7 @@
         <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7"/>
         <rdfs:label>Box of Betrayal at Baldur&apos;s Gate</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000002 -->
@@ -928,7 +928,7 @@
         <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#DECK000001"/>
         <rdfs:label>Box of Bang!</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000001 -->
@@ -939,7 +939,7 @@
         <boardgame:title>Secrets of Survival</boardgame:title>
         <rdfs:label>Secrets of Survival</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000002 -->
@@ -950,7 +950,7 @@
         <boardgame:title>Traitor&apos;s Tome</boardgame:title>
         <rdfs:label>Traitor&apos;s Tome</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#C000001 -->
@@ -960,7 +960,7 @@
         <boardgame:title>Sheriff</boardgame:title>
         <rdfs:label>Sheriff of Bang!</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#D000001 -->
@@ -972,7 +972,7 @@
         <foaf:lastName>Dupuis</foaf:lastName>
         <rdfs:label>Chris Dupuis</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#D000002 -->
@@ -984,7 +984,7 @@
         <foaf:lastName>Mearls</foaf:lastName>
         <rdfs:label>Mike Mearls</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#DECK000001 -->
@@ -994,7 +994,7 @@
         <boardgame:hasCard rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#C000001"/>
         <rdfs:label>Bang&apos;s roles</rdfs:label>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0001 -->
@@ -1004,7 +1004,7 @@
         <rdfs:label>Betrayal</rdfs:label>
         <foaf:name>Betrayal</foaf:name>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0002 -->
@@ -1014,7 +1014,7 @@
         <rdfs:label>Dungeons &amp; Dragons</rdfs:label>
         <foaf:name>Dungeons &amp; Dragons</foaf:name>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0003 -->
@@ -1024,7 +1024,7 @@
         <rdfs:label>Baldur&apos;s Gate</rdfs:label>
         <foaf:name>Baldur&apos;s Gate</foaf:name>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#HalflingMiniature -->
@@ -1033,7 +1033,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Miniature"/>
         <boardgame:madeOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#IT -->
@@ -1042,7 +1042,7 @@
         <rdf:type rdf:resource="http://dbpedia.org/ontology/Language"/>
         <foaf:name>Italian</foaf:name>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#P000001 -->
@@ -1053,7 +1053,7 @@
         <rdfs:label>Avalon Hill Games, Inc.</rdfs:label>
         <foaf:name>Avalon Hill Games, Inc.</foaf:name>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic -->
@@ -1061,7 +1061,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic"/>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000001 -->
@@ -1071,7 +1071,7 @@
         <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</boardgame:hasMaximum>
         <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</boardgame:hasMinimum>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000002 -->
@@ -1081,7 +1081,7 @@
         <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</boardgame:hasMaximum>
         <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</boardgame:hasMinimum>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000003 -->
@@ -1091,7 +1091,7 @@
         <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</boardgame:hasMaximum>
         <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</boardgame:hasMinimum>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000004 -->
@@ -1100,7 +1100,7 @@
         <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</boardgame:hasMaximum>
         <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</boardgame:hasMinimum>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000005 -->
@@ -1109,7 +1109,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
         <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</boardgame:hasMinimum>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000006 -->
@@ -1118,7 +1118,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
         <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</boardgame:hasMinimum>
     </owl:NamedIndividual>
-    
+
 
 
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7 -->
@@ -1128,37 +1128,6 @@
         <boardgame:faces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</boardgame:faces>
         <rdfs:label xml:lang="it">D6</rdfs:label>
     </owl:NamedIndividual>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Box"/>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Manual"/>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book"/>
-        <foaf:name>Traitor&apos;s Tome</foaf:name>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book"/>
-        <foaf:name>Secrets of Survival</foaf:name>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Miniature"/>
-        <boardgame:hasBase>
-            <rdf:Description/>
-        </boardgame:hasBase>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic"/>
-    </rdf:Description>
-    <rdf:Description>
-        <boardgame:madeOf>
-            <rdf:Description/>
-        </boardgame:madeOf>
-    </rdf:Description>
     <rdf:Description>
         <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
     </rdf:Description>
