@@ -11,6 +11,7 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:game="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:vann="http://purl.org/vocab/vann/"
@@ -19,11 +20,11 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:terms1="http://open.vocab.org/terms/"
      xmlns:powder-s="http://www.w3.org/2007/05/powder-s#"
-     xmlns:temporal="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl"
-     xmlns:boardgame="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#">
+     xmlns:temporal="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl">
     <owl:Ontology rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology/1.0.0"/>
         <owl:imports rdf:resource="http://dbpedia.org/ontology/"/>
+        <owl:imports rdf:resource="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:comment xml:lang="it">Ontologia che definisce i giochi da tavolo ed i relativi componenti.</rdfs:comment>
         <rdfs:isDefinedBy>Gioele Masini</rdfs:isDefinedBy>
@@ -828,7 +829,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#A000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Artist"/>
-        <boardgame:artistOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
+        <game:artistOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
         <foaf:firstName>Aaron</foaf:firstName>
         <foaf:lastName>Hübrich</foaf:lastName>
         <rdfs:label>Aaron Hübrich</rdfs:label>
@@ -840,7 +841,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#A000002">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Artist"/>
-        <boardgame:artistOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
+        <game:artistOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
         <foaf:firstName>Tyler</foaf:firstName>
         <foaf:lastName>Jacobson</foaf:lastName>
         <rdfs:label>Tyler Jacobson</rdfs:label>
@@ -852,7 +853,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#A000003">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Artist"/>
-        <boardgame:artistOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
+        <game:artistOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
         <foaf:firstName>Scott</foaf:firstName>
         <foaf:lastName>Okumura</foaf:lastName>
         <rdfs:label>Scott Okumura</rdfs:label>
@@ -866,19 +867,18 @@
         <rdf:type rdf:resource="http://dbpedia.org/ontology/BoardGame"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#DiceGame"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#RolePlayingGame"/>
-        <boardgame:age rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000005"/>
-        <boardgame:age>
+        <game:age rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000005"/>
+        <game:age>
             <rdf:Description/>
-        </boardgame:age>
-        <boardgame:duration rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000003"/>
-        <boardgame:family rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0001"/>
-        <boardgame:family rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0003"/>
-        <boardgame:hasBox rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000001"/>
-        <boardgame:hasLanguage rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#IT"/>
-        <boardgame:numberOfPlayers rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000001"/>
-        <boardgame:isReleased rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</boardgame:isReleased>
-        <boardgame:releaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-06T00:00:00</boardgame:releaseDate>
-        <boardgame:title>Betrayal at Baldur&apos;s Gate</boardgame:title>
+        </game:age>
+        <game:duration rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000003"/>
+        <game:family rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0001"/>
+        <game:family rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0003"/>
+        <game:hasBox rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000001"/>
+        <game:hasLanguage rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#IT"/>
+        <game:numberOfPlayers rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000001"/>
+        <game:releaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-06T00:00:00</game:releaseDate>
+        <game:title>Betrayal at Baldur&apos;s Gate</game:title>
         <rdfs:label>Betrayal at Baldur&apos;s Gate</rdfs:label>
         <foaf:name>Betrayal at Baldur&apos;s Gate</foaf:name>
     </owl:NamedIndividual>
@@ -900,11 +900,10 @@
         <rdf:type rdf:resource="http://dbpedia.org/ontology/BoardGame"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#CardGame"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Family"/>
-        <boardgame:age rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000006"/>
-        <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000002"/>
-        <boardgame:numberOfPlayers rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000002"/>
-        <boardgame:releaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2003-10-26T00:00:00</boardgame:releaseDate>
-        <boardgame:title>Bang!</boardgame:title>
+        <game:age rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000006"/>
+        <game:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000002"/>
+        <game:numberOfPlayers rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000002"/>
+        <game:title>Bang!</game:title>
         <rdfs:label>Bang!</rdfs:label>
     </owl:NamedIndividual>
     
@@ -914,11 +913,11 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Box"/>
-        <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001Manual"/>
-        <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000001"/>
-        <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000002"/>
-        <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#HalflingMiniature"/>
-        <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7"/>
+        <game:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001Manual"/>
+        <game:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000001"/>
+        <game:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000002"/>
+        <game:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#HalflingMiniature"/>
+        <game:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7"/>
         <rdfs:label>Box of Betrayal at Baldur&apos;s Gate</rdfs:label>
     </owl:NamedIndividual>
     
@@ -928,7 +927,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000002">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Box"/>
-        <boardgame:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#DECK000001"/>
+        <game:hasComponent rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#DECK000001"/>
         <rdfs:label>Box of Bang!</rdfs:label>
     </owl:NamedIndividual>
     
@@ -938,8 +937,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book"/>
-        <boardgame:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</boardgame:pages>
-        <boardgame:title>Secrets of Survival</boardgame:title>
+        <game:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</game:pages>
+        <game:title>Secrets of Survival</game:title>
         <rdfs:label>Secrets of Survival</rdfs:label>
     </owl:NamedIndividual>
     
@@ -949,8 +948,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book000002">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Book"/>
-        <boardgame:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</boardgame:pages>
-        <boardgame:title>Traitor&apos;s Tome</boardgame:title>
+        <game:pages rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</game:pages>
+        <game:title>Traitor&apos;s Tome</game:title>
         <rdfs:label>Traitor&apos;s Tome</rdfs:label>
     </owl:NamedIndividual>
     
@@ -960,7 +959,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#C000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Card"/>
-        <boardgame:title>Sheriff</boardgame:title>
+        <game:title>Sheriff</game:title>
         <rdfs:label>Sheriff of Bang!</rdfs:label>
     </owl:NamedIndividual>
     
@@ -970,7 +969,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#D000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Designer"/>
-        <boardgame:designerOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
+        <game:designerOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
         <foaf:firstName>Chris</foaf:firstName>
         <foaf:lastName>Dupuis</foaf:lastName>
         <rdfs:label>Chris Dupuis</rdfs:label>
@@ -982,7 +981,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#D000002">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Designer"/>
-        <boardgame:designerOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
+        <game:designerOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
         <foaf:firstName>Mike</foaf:firstName>
         <foaf:lastName>Mearls</foaf:lastName>
         <rdfs:label>Mike Mearls</rdfs:label>
@@ -994,7 +993,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#DECK000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Deck"/>
-        <boardgame:hasCard rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#C000001"/>
+        <game:hasCard rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#C000001"/>
         <rdfs:label>Bang&apos;s roles</rdfs:label>
     </owl:NamedIndividual>
     
@@ -1024,8 +1023,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0003">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Family"/>
-        <rdfs:label>Baldur&apos;s Gate</rdfs:label>
         <foaf:name>Baldur&apos;s Gate</foaf:name>
+        <rdfs:label>Baldur&apos;s Gate</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1034,7 +1033,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#HalflingMiniature">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Miniature"/>
-        <boardgame:madeOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic"/>
+        <game:madeOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic"/>
     </owl:NamedIndividual>
     
 
@@ -1052,7 +1051,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#P000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Publisher"/>
-        <boardgame:publisherOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
+        <game:publisherOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
         <rdfs:label>Avalon Hill Games, Inc.</rdfs:label>
         <foaf:name>Avalon Hill Games, Inc.</foaf:name>
     </owl:NamedIndividual>
@@ -1071,8 +1070,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
-        <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</boardgame:hasMaximum>
-        <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</boardgame:hasMinimum>
+        <game:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</game:hasMaximum>
+        <game:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</game:hasMinimum>
     </owl:NamedIndividual>
     
 
@@ -1081,8 +1080,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000002">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
-        <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</boardgame:hasMaximum>
-        <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</boardgame:hasMinimum>
+        <game:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</game:hasMaximum>
+        <game:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</game:hasMinimum>
     </owl:NamedIndividual>
     
 
@@ -1091,8 +1090,8 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000003">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
-        <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</boardgame:hasMaximum>
-        <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</boardgame:hasMinimum>
+        <game:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</game:hasMaximum>
+        <game:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</game:hasMinimum>
     </owl:NamedIndividual>
     
 
@@ -1100,8 +1099,8 @@
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000004 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000004">
-        <boardgame:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</boardgame:hasMaximum>
-        <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</boardgame:hasMinimum>
+        <game:hasMaximum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</game:hasMaximum>
+        <game:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</game:hasMinimum>
     </owl:NamedIndividual>
     
 
@@ -1110,7 +1109,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000005">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
-        <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</boardgame:hasMinimum>
+        <game:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</game:hasMinimum>
     </owl:NamedIndividual>
     
 
@@ -1119,7 +1118,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000006">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Range"/>
-        <boardgame:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</boardgame:hasMinimum>
+        <game:hasMinimum rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</game:hasMinimum>
     </owl:NamedIndividual>
     
 
@@ -1128,7 +1127,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Dice"/>
-        <boardgame:faces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</boardgame:faces>
+        <game:faces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</game:faces>
         <rdfs:label xml:lang="it">D6</rdfs:label>
     </owl:NamedIndividual>
     <rdf:Description>
@@ -1150,17 +1149,17 @@
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Miniature"/>
-        <boardgame:hasBase>
+        <game:hasBase>
             <rdf:Description/>
-        </boardgame:hasBase>
+        </game:hasBase>
     </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Plastic"/>
     </rdf:Description>
     <rdf:Description>
-        <boardgame:madeOf>
+        <game:madeOf>
             <rdf:Description/>
-        </boardgame:madeOf>
+        </game:madeOf>
     </rdf:Description>
     <rdf:Description>
         <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
@@ -1199,10 +1198,7 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#book">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#x">
+    <rdf:Description rdf:about="#g">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -1278,41 +1274,7 @@
     </rdf:Description>
     <rdf:Description>
         <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q3</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-                        <swrl:arguments rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
-                        </swrl:arguments>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verifica se il gioco è stato rilasciato game:releaseDate(?g, ?date) ^ temporal:before(?date, &quot;now&quot;)</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">game:Game(?g) ^ game:releaseDate(?g, ?date) ^ temporal:before(?date, &quot;now&quot;) -&gt; game:isReleased(?g, true)</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
         <swrl:body>
@@ -1322,47 +1284,10 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                        <swrl:argument1 rdf:resource="#g"/>
                     </rdf:Description>
                 </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#releaseDate"/>
-                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
-                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl#before"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">now</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
             </rdf:Description>
         </swrl:body>
         <swrl:head>
@@ -1372,42 +1297,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#isReleased"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                        <swrl:argument1 rdf:resource="#g"/>
                         <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Q1</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#x"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                        <swrl:builtin rdf:resource="http://sqwrl.stanford.edu/ontologies/built-ins/3.4/sqwrl.owl#select"/>
-                        <swrl:arguments rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#x"/>
-                        </swrl:arguments>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
