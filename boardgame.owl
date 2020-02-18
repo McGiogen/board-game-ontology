@@ -867,9 +867,6 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#DiceGame"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#RolePlayingGame"/>
         <boardgame:age rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000005"/>
-        <boardgame:age>
-            <rdf:Description/>
-        </boardgame:age>
         <boardgame:duration rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000003"/>
         <boardgame:family rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0001"/>
         <boardgame:family rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#F0003"/>
