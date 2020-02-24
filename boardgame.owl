@@ -214,7 +214,9 @@
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#hasArtist -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#hasArtist">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#creditsTo"/>
         <rdfs:domain rdf:resource="http://dbpedia.org/ontology/BoardGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Artist"/>
     </owl:ObjectProperty>
     
 
@@ -254,7 +256,9 @@
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#hasDesigner -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#hasDesigner">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#creditsTo"/>
         <rdfs:domain rdf:resource="http://dbpedia.org/ontology/BoardGame"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Designer"/>
     </owl:ObjectProperty>
     
 
@@ -272,6 +276,7 @@
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#hasPublisher -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#hasPublisher">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#creditsTo"/>
         <owl:inverseOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#publisherOf"/>
         <rdfs:domain rdf:resource="http://dbpedia.org/ontology/BoardGame"/>
         <rdfs:range>
@@ -1683,19 +1688,10 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#book">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#a">
+    <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#a">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#g">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#award">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#date">
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#year">
+    <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#award">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#gameYear">
@@ -1704,7 +1700,10 @@
     <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#d">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
-    <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#award">
+    <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#year">
         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
     </rdf:Description>
     <rdf:Description>
@@ -1790,7 +1789,7 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                         <swrl:classPredicate rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
-                        <swrl:argument1 rdf:resource="#a"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#a"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest>
@@ -1800,8 +1799,8 @@
                             <rdf:Description>
                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                 <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#involvedIn"/>
-                                <swrl:argument1 rdf:resource="#a"/>
-                                <swrl:argument2 rdf:resource="#g"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#a"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
                             </rdf:Description>
                         </rdf:first>
                         <rdf:rest>
@@ -1811,7 +1810,7 @@
                                     <rdf:Description>
                                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
                                         <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
-                                        <swrl:argument1 rdf:resource="#g"/>
+                                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
                                     </rdf:Description>
                                 </rdf:first>
                                 <rdf:rest>
@@ -1821,8 +1820,8 @@
                                             <rdf:Description>
                                                 <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                                                 <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#awarded"/>
-                                                <swrl:argument1 rdf:resource="#g"/>
-                                                <swrl:argument2 rdf:resource="#award"/>
+                                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#award"/>
                                             </rdf:Description>
                                         </rdf:first>
                                         <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -1841,160 +1840,8 @@
                     <rdf:Description>
                         <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#awarded"/>
-                        <swrl:argument1 rdf:resource="#a"/>
-                        <swrl:argument2 rdf:resource="#award"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verifica se il gioco è stato rilasciato</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
-                        <swrl:argument1 rdf:resource="#g"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#releaseDate"/>
-                                <swrl:argument1 rdf:resource="#g"/>
-                                <swrl:argument2 rdf:resource="#date"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl#before"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="#date"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">now</rdf:first>
-                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#isReleased"/>
-                        <swrl:argument1 rdf:resource="#g"/>
-                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-            </rdf:Description>
-        </swrl:head>
-    </rdf:Description>
-    <rdf:Description>
-        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imposta l&apos;anno di pubblicazione basandosi sulla data di rilascio, se assente</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
-        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
-        <swrl:body>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
-                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
-                        <swrl:argument1 rdf:resource="#g"/>
-                    </rdf:Description>
-                </rdf:first>
-                <rdf:rest>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                        <rdf:first>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#releaseDate"/>
-                                <swrl:argument1 rdf:resource="#g"/>
-                                <swrl:argument2 rdf:resource="#date"/>
-                            </rdf:Description>
-                        </rdf:first>
-                        <rdf:rest>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                                <rdf:first>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
-                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#substring"/>
-                                        <swrl:arguments>
-                                            <rdf:Description>
-                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                <rdf:first rdf:resource="#year"/>
-                                                <rdf:rest>
-                                                    <rdf:Description>
-                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                        <rdf:first rdf:resource="#date"/>
-                                                        <rdf:rest>
-                                                            <rdf:Description>
-                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:first>
-                                                                <rdf:rest>
-                                                                    <rdf:Description>
-                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
-                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                                                    </rdf:Description>
-                                                                </rdf:rest>
-                                                            </rdf:Description>
-                                                        </rdf:rest>
-                                                    </rdf:Description>
-                                                </rdf:rest>
-                                            </rdf:Description>
-                                        </swrl:arguments>
-                                    </rdf:Description>
-                                </rdf:first>
-                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                            </rdf:Description>
-                        </rdf:rest>
-                    </rdf:Description>
-                </rdf:rest>
-            </rdf:Description>
-        </swrl:body>
-        <swrl:head>
-            <rdf:Description>
-                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
-                <rdf:first>
-                    <rdf:Description>
-                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
-                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#publicationYear"/>
-                        <swrl:argument1 rdf:resource="#g"/>
-                        <swrl:argument2 rdf:resource="#year"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#a"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#award"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
@@ -2114,6 +1961,158 @@
                         <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#classic"/>
                         <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
                         <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verifica se il gioco è stato rilasciato</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S1</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#releaseDate"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl#before"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#string">now</rdf:first>
+                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#isReleased"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                        <swrl:argument2 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imposta l&apos;anno di pubblicazione basandosi sulla data di rilascio, se assente</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S3</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#releaseDate"/>
+                                <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                                <swrl:argument2 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#substring"/>
+                                        <swrl:arguments>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#year"/>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                        <rdf:first rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#date"/>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</rdf:first>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </swrl:arguments>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#publicationYear"/>
+                        <swrl:argument1 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#g"/>
+                        <swrl:argument2 rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#year"/>
                     </rdf:Description>
                 </rdf:first>
                 <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
