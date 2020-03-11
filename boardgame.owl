@@ -1271,6 +1271,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BoardGame"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Terra Mystica</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000001 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BOX000001">
@@ -1408,6 +1417,33 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Goal000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Player_Elimination"/>
         <gm:part-of rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Goal000002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Goal000002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Player_Elimination"/>
+        <gm:part-of rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Goal000003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Goal000003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Resource_management"/>
+        <gm:part-of rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Goal000004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Goal000004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Area_Control"/>
+        <gm:part-of rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000003"/>
     </owl:NamedIndividual>
     
 
@@ -1583,18 +1619,18 @@
     <rdf:Description rdf:about="http://dbpedia.org/resource/">
         <dbo:abstract xml:lang="es"> es un servicio de alojamiento de imágenes con sede en Toronto fundado por Oleg Gutsol y Evgeny Tchebotarev el 31 de octubre de 2001. Inicialmente el sitio solo tuvo 1.000 usuarios en 2009, pero se expandió y contaba con más de 85.000 en junio de 2011. En ese mismo mes la startup anunció una ronda de financiación de 525.000 dólares con financiación de High Line Venture Capital, Deep Creek Capital y ff Venture Capital. Para octubre de 2011 los usuarios del sitio habían crecido hasta los 3 millones.</dbo:abstract>
         <rdfs:comment xml:lang="es"> es un servicio de alojamiento de imágenes con sede en Toronto fundado por Oleg Gutsol y Evgeny Tchebotarev el 31 de octubre de 2001. Inicialmente el sitio solo tuvo 1.000 usuarios en 2009, pero se expandió y contaba con más de 85.000 en junio de 2011. En ese mismo mes la startup anunció una ronda de financiación de 525.000 dólares con financiación de High Line Venture Capital, Deep Creek Capital y ff Venture Capital. Para octubre de 2011 los usuarios del sitio habían crecido hasta los 3 millones.</rdfs:comment>
-        <rdfs:comment xml:lang="de"> (ausgesprochen: „five hundred pixels“) ist eine am 31. Oktober 2009 von Oleg Gutsol und Evgeny Tchebotarev (Künstlername: „Ian Sobolev“) gegründete Online-Fotocommunity. Das in Toronto ansässige Unternehmen ist darauf ausgelegt, Profi- und ambitionierte Amateurfotografen zu ermuntern, ihre besten Werke hochzuladen.  wird als Plattform zur Darstellung ihrer Werke, zur Inspiration und zur Kontaktaufnahme zu anderen Fotografen gesehen. Aktuell werden ca. 2,5 Millionen eingetragene Benutzer und monatlich mehr als 10 Millionen aktive Nutzer verzeichnet.</rdfs:comment>
         <dbo:abstract xml:lang="en"> (pronounced &quot;five hundred px&quot;) is a Canadian online community and marketplace based on photography, co-founded by Oleg Gutsol and Evgeny Tchebotarev (artistically also known as “Ian Sobolev”) on Halloween 2009. The Toronto-based startup launched its Web 2.0 version in 2009 and is aimed at aspiring and professional photographers; encouraging members to upload their best work. In August 2015, the company launched a new version of its iOS app.  is seen as a place to gain exposure, find inspiration and connect photographers with one another. As of January 2016, the site had 7 million users.</dbo:abstract>
-        <rdfs:comment xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (يناير 2016)  هو موقع لمشاركة الصور، تأسس عام 2009 بتقنية ويب 2.0، و علي الموقع حاليا 2.5 مليون مستخدم مسجل</rdfs:comment>
+        <rdfs:comment xml:lang="de"> (ausgesprochen: „five hundred pixels“) ist eine am 31. Oktober 2009 von Oleg Gutsol und Evgeny Tchebotarev (Künstlername: „Ian Sobolev“) gegründete Online-Fotocommunity. Das in Toronto ansässige Unternehmen ist darauf ausgelegt, Profi- und ambitionierte Amateurfotografen zu ermuntern, ihre besten Werke hochzuladen.  wird als Plattform zur Darstellung ihrer Werke, zur Inspiration und zur Kontaktaufnahme zu anderen Fotografen gesehen. Aktuell werden ca. 2,5 Millionen eingetragene Benutzer und monatlich mehr als 10 Millionen aktive Nutzer verzeichnet.</rdfs:comment>
         <rdfs:comment xml:lang="fr"> est un site Web de partage de photos. Il est basé à Toronto et a été créé par Oleg Gutsol et Evgeny Tchebotarev le 31 octobre 2009.</rdfs:comment>
+        <rdfs:comment xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (يناير 2016)  هو موقع لمشاركة الصور، تأسس عام 2009 بتقنية ويب 2.0، و علي الموقع حاليا 2.5 مليون مستخدم مسجل</rdfs:comment>
         <dbo:abstract xml:lang="nl"> (uitgesproken als &quot;vijfhonderd pixels&quot;) is een online fotografie-gemeenschap opgericht door Oleg Gutsol en Evgeny Tchebotarev. Het bedrijf werd in 2003 opgericht in Toronto maar kreeg pas grote bekendheid toen het in 2009 met een ingrijpend vernieuwde website kwam. De doelgroep van  bestaat voornamelijk uit hobby- en professionele fotografen. Leden worden aangemoedigd hun beste werk te uploaden. De bedoeling achter  is enerzijds het bieden van een plek voor fotografen om hun werk tentoon te stellen en anderzijds om inspiratie op te doen en onderlinge contacten te leggen.</dbo:abstract>
         <dbo:abstract xml:lang="zh">是一个专业摄影师图片社区，在2003年于加拿大创建，为大家分享和发现精彩的照片，寻找优秀的摄影人才，找到志同道合的朋友。网站提供有免费和付费两种账户，摄影师可以在这里出售自己的照片，喜欢的用户可以进行购买。不是flickr类型的图库，也不是无忌这样的论坛，它注重于图片质量而不是数量。</dbo:abstract>
         <rdfs:comment xml:lang="en"> (pronounced &quot;five hundred px&quot;) is a Canadian online community and marketplace based on photography, co-founded by Oleg Gutsol and Evgeny Tchebotarev (artistically also known as “Ian Sobolev”) on Halloween 2009. The Toronto-based startup launched its Web 2.0 version in 2009 and is aimed at aspiring and professional photographers; encouraging members to upload their best work. In August 2015, the company launched a new version of its iOS app.</rdfs:comment>
         <rdfs:comment xml:lang="ja">（ファイブハンドレッドピクセル、five hundred pixels）とはオンライン写真コミュニティで写真撮影に関して趣味かプロフェッショナルの人たちが自身の最も良い写真をアップロードすることを奨励することを目的に、オレグ・ガットソル(Oleg Gutsol)とエフゲニー・トチェボタレフ（Evgeny Tchebotarev、イアン・ソボレフ(Ian Sobolev)としても知られる）が共同で、2009年にトロントでWeb 2.0ベンチャーとして設立した。 写真を公開し、インスピレーションを探したり他の写真家を繋がるための場所と見なされており、6000万枚以上の写真が投稿されている。また、最も使われているカメラはキヤノン EOS 5D Mark IIである。</rdfs:comment>
         <rdfs:comment xml:lang="nl"> (uitgesproken als &quot;vijfhonderd pixels&quot;) is een online fotografie-gemeenschap opgericht door Oleg Gutsol en Evgeny Tchebotarev. Het bedrijf werd in 2003 opgericht in Toronto maar kreeg pas grote bekendheid toen het in 2009 met een ingrijpend vernieuwde website kwam. De doelgroep van  bestaat voornamelijk uit hobby- en professionele fotografen. Leden worden aangemoedigd hun beste werk te uploaden. De bedoeling achter  is enerzijds het bieden van een plek voor fotografen om hun werk tentoon te stellen en anderzijds om inspiratie op te doen en onderlinge contacten te leggen.</rdfs:comment>
         <rdfs:comment xml:lang="ru">.com — ресурс фотохостинга для фотографического сообщества творческих людей со всего мира.</rdfs:comment>
-        <dbo:abstract xml:lang="fr"> est un site Web de partage de photos. Il est basé à Toronto et a été créé par Oleg Gutsol et Evgeny Tchebotarev le 31 octobre 2009.</dbo:abstract>
         <dbo:abstract xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (يناير 2016)  هو موقع لمشاركة الصور، تأسس عام 2009 بتقنية ويب 2.0، و علي الموقع حاليا 2.5 مليون مستخدم مسجل</dbo:abstract>
+        <dbo:abstract xml:lang="fr"> est un site Web de partage de photos. Il est basé à Toronto et a été créé par Oleg Gutsol et Evgeny Tchebotarev le 31 octobre 2009.</dbo:abstract>
         <dbo:abstract xml:lang="ru">.com — ресурс фотохостинга для фотографического сообщества творческих людей со всего мира.</dbo:abstract>
         <dbo:abstract xml:lang="de"> (ausgesprochen: „five hundred pixels“) ist eine am 31. Oktober 2009 von Oleg Gutsol und Evgeny Tchebotarev (Künstlername: „Ian Sobolev“) gegründete Online-Fotocommunity. Das in Toronto ansässige Unternehmen ist darauf ausgelegt, Profi- und ambitionierte Amateurfotografen zu ermuntern, ihre besten Werke hochzuladen.  wird als Plattform zur Darstellung ihrer Werke, zur Inspiration und zur Kontaktaufnahme zu anderen Fotografen gesehen. Aktuell werden ca. 2,5 Millionen eingetragene Benutzer und monatlich mehr als 10 Millionen aktive Nutzer verzeichnet.</dbo:abstract>
         <rdfs:comment xml:lang="zh">是一个专业摄影师图片社区，在2003年于加拿大创建，为大家分享和发现精彩的照片，寻找优秀的摄影人才，找到志同道合的朋友。网站提供有免费和付费两种账户，摄影师可以在这里出售自己的照片，喜欢的用户可以进行购买。不是flickr类型的图库，也不是无忌这样的论坛，它注重于图片质量而不是数量。</rdfs:comment>
