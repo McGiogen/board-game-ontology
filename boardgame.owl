@@ -8,11 +8,13 @@
      xmlns:ns2="http://www.w3.org/2003/06/sw-vocab-status/ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vgo="http://purl.org/net/VideoGameOntology"
      xmlns:wot="http://xmlns.com/wot/0.1/"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:gold="http://purl.org/linguistics/gold/"
+     xmlns:ludo="http://ns.inria.fr/ludo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:swrl="http://www.w3.org/2003/11/swrl#"
      xmlns:vann="http://purl.org/vocab/vann/"
@@ -21,10 +23,14 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:terms1="http://open.vocab.org/terms/"
      xmlns:powder-s="http://www.w3.org/2007/05/powder-s#"
-     xmlns:boardgame="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#">
+     xmlns:boardgame="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#"
+     xmlns:gamemodel="http://ns.inria.fr/ludo/v1/gamemodel#"
+     xmlns:VideoGameOntology="http://purl.org/net/VideoGameOntology#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology">
         <owl:versionIRI rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology/1.0.0"/>
         <owl:imports rdf:resource="http://dbpedia.org/ontology/"/>
+        <owl:imports rdf:resource="http://nr.inria.fr/ludo/v1"/>
+        <owl:imports rdf:resource="http://purl.org/net/VideoGameOntology"/>
         <owl:imports rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2"/>
         <owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
         <rdfs:comment xml:lang="it">Ontologia che definisce i giochi da tavolo ed i relativi componenti.</rdfs:comment>
@@ -106,6 +112,30 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#hasDifficultyIndicator -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#hasDifficultyIndicator">
+        <rdfs:domain rdf:resource="http://purl.org/net/VideoGameOntology#Game"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#hasGameStructure -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#hasGameStructure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/net/VideoGameOntology#hasItem -->
+
+    <rdf:Description rdf:about="http://purl.org/net/VideoGameOntology#hasItem">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#contains"/>
+    </rdf:Description>
     
 
 
@@ -339,6 +369,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#representation -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#representation">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#represents"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#represents -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#represents">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#translatedIn -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#translatedIn">
@@ -364,6 +413,22 @@
         <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
         <rdfs:comment>The language of the text of the book.</rdfs:comment>
     </owl:ObjectProperty>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depiction -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/depiction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#representation"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/depicts -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/depicts">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#represents"/>
+    </rdf:Description>
     
 
 
@@ -707,6 +772,263 @@
     
 
 
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#Action -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#Action">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Action"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#Area -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#Area">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#Area"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#Button -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#Button">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#Button"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#Checkbox -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#Checkbox">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#Checkbox"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#GUIComponent -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#GUIComponent">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#GUIComponent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#GameControlInterface -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#GameControlInterface">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#GameControlInterface"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#GameObject -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#GameObject">
+        <owl:equivalentClass rdf:resource="http://purl.org/net/VideoGameOntology#Item"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#GameComponent"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Component"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#GameObjective -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#GameObjective">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Goal"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#GamePresentation -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#GamePresentation">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#GamePresentation"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#GameRecord -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#GameRecord">
+        <owl:equivalentClass rdf:resource="http://purl.org/net/VideoGameOntology#Achievement"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#GameRule -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#GameRule">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Algorithm"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#Graphic -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#Graphic">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#Graphic"/>
+        <rdfs:subClassOf rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#MediaComponent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#InputEvent -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#InputEvent">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#InputEvent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#ObjectAttribute -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#ObjectAttribute">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamemodel#ObjectsAttribute"/>
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#ObjectAttribute"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#ObjectsAttribute -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#ObjectsAttribute">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#ObjectAttribute"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#SeriousGame -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#SeriousGame">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#Sound -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#Sound">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#Sound"/>
+        <rdfs:subClassOf rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#MediaComponent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamemodel#Video -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamemodel#Video">
+        <owl:equivalentClass rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#Video"/>
+        <rdfs:subClassOf rdf:resource="http://ns.inria.fr/ludo/v1/gamepresentation#MediaComponent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#Area -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#Area"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#Button -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#Button"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#Checkbox -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#Checkbox"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#GUIComponent -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#GUIComponent"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#GameControlInterface -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#GameControlInterface"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#GamePresentation -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#GamePresentation"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#Graphic -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#Graphic"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#InputEvent -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#InputEvent"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#ObjectAttribute -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#ObjectAttribute"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#Sound -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#Sound"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/gamepresentation#Video -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/gamepresentation#Video"/>
+    
+
+
+    <!-- http://ns.inria.fr/ludo/v1/xapi#Agent -->
+
+    <rdf:Description rdf:about="http://ns.inria.fr/ludo/v1/xapi#Agent">
+        <owl:equivalentClass rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/net/VideoGameOntology#Achievement -->
+
+    <rdf:Description rdf:about="http://purl.org/net/VideoGameOntology#Achievement"/>
+    
+
+
+    <!-- http://purl.org/net/VideoGameOntology#Character -->
+
+    <rdf:Description rdf:about="http://purl.org/net/VideoGameOntology#Character">
+        <rdfs:subClassOf rdf:resource="http://ns.inria.fr/ludo/v1/xapi#Agent"/>
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/net/VideoGameOntology#Game -->
+
+    <rdf:Description rdf:about="http://purl.org/net/VideoGameOntology#Game">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Game"/>
+        <rdfs:subClassOf rdf:resource="http://schema.org/CreativeWork"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.org/net/VideoGameOntology#Item -->
+
+    <rdf:Description rdf:about="http://purl.org/net/VideoGameOntology#Item">
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#GameComponent"/>
+        <owl:equivalentClass rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Component"/>
+    </rdf:Description>
+    
+
+
     <!-- http://schema.org/ImageObject -->
 
     <rdf:Description rdf:about="http://schema.org/ImageObject">
@@ -719,6 +1041,14 @@
 
     <rdf:Description rdf:about="http://schema.org/Person">
         <owl:equivalentClass rdf:resource="http://www.w3.org/2000/10/swap/pim/contact#Person"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://schema.org/Product -->
+
+    <rdf:Description rdf:about="http://schema.org/Product">
+        <rdfs:subClassOf rdf:resource="http://purl.org/goodrelations/v1#ProductOrService"/>
     </rdf:Description>
     
 
@@ -736,6 +1066,7 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Board">
         <owl:equivalentClass rdf:resource="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Modular_Board"/>
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/VideoGameOntology#PlayingArea"/>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#GameComponent"/>
         <rdfs:comment xml:lang="it">Plancia da gioco</rdfs:comment>
     </owl:Class>
@@ -1031,6 +1362,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Action -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Action"/>
+    
+
+
+    <!-- http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Areas -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Areas">
+        <rdfs:subClassOf rdf:resource="http://purl.org/net/VideoGameOntology#PlayingArea"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Card -->
 
     <rdf:Description rdf:about="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Card"/>
@@ -1056,6 +1401,12 @@
     <!-- http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Die -->
 
     <rdf:Description rdf:about="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Die"/>
+    
+
+
+    <!-- http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Goal -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2#Goal"/>
     
 
 
@@ -1098,6 +1449,14 @@
     <!-- http://xmlns.com/foaf/0.1/Image -->
 
     <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/Image"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/OnlineAccount -->
+
+    <rdf:Description rdf:about="http://xmlns.com/foaf/0.1/OnlineAccount">
+        <rdfs:subClassOf rdf:resource="http://ns.inria.fr/ludo/v1/xapi#Account"/>
+    </rdf:Description>
     
 
 
@@ -1219,6 +1578,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Agent000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Agent000001">
+        <rdf:type rdf:resource="http://purl.org/net/VideoGameOntology#Character"/>
+        <VideoGameOntology:ownsCharacter rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Role000001"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000001">
@@ -1331,7 +1699,7 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#C000001">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Card"/>
         <boardgame:title>Sheriff</boardgame:title>
-        <rdfs:label>Sheriff of Bang!</rdfs:label>
+        <rdfs:label>Sheriff card of Bang!</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1486,6 +1854,20 @@
     
 
 
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Player000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Player000001">
+        <rdf:type rdf:resource="http://ns.inria.fr/ludo/v1/gamemodel#GamePlayer"/>
+        <rdf:type rdf:resource="http://purl.org/net/VideoGameOntology#Player"/>
+        <gamemodel:hasGameRecord rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Record000001"/>
+        <VideoGameOntology:isPlayerInSession rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Session000001"/>
+        <foaf:firstName>Mario</foaf:firstName>
+        <foaf:lastName>Rossi</foaf:lastName>
+        <rdfs:label>Player Mario Rossi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000001 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#R000001">
@@ -1553,6 +1935,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Record000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Record000001">
+        <rdf:type rdf:resource="http://ns.inria.fr/ludo/v1/gamemodel#GameRecord"/>
+        <rdf:type rdf:resource="http://purl.org/net/VideoGameOntology#Achievement"/>
+        <gamemodel:hasGameResult rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#resultWin"/>
+        <VideoGameOntology:isAchievedInSession rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Session000001"/>
+        <VideoGameOntology:isAchievementInGame rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Role000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Role000001">
+        <rdf:type rdf:resource="http://purl.org/net/VideoGameOntology#Character"/>
+        <boardgame:representation rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#C000001"/>
+        <foaf:member rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Team000001"/>
+        <foaf:name>Sheriff</foaf:name>
+        <rdfs:label>Sheriff role of Bang!</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Ruleset000001 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Ruleset000001">
@@ -1595,12 +2001,39 @@
     
 
 
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Session000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Session000001">
+        <rdf:type rdf:resource="http://purl.org/net/VideoGameOntology#Session"/>
+        <VideoGameOntology:isSessionInGame rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#BG000002"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Team000001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Team000001">
+        <rdf:type rdf:resource="http://ns.inria.fr/ludo/v1/xapi#Group"/>
+        <foaf:name>Law</foaf:name>
+        <rdfs:label>Law team of Bang!</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#dice_0eb1f869_76ea_4c1a_be49_ba71396163d7">
         <rdf:type rdf:resource="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#Dice"/>
         <boardgame:faces rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</boardgame:faces>
         <rdfs:label xml:lang="it">D6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#resultWin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology#resultWin">
+        <rdf:type rdf:resource="http://ns.inria.fr/ludo/v1/gamemodel#GameResult"/>
     </owl:NamedIndividual>
     <rdf:Description>
         <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
@@ -1619,8 +2052,8 @@
     <rdf:Description rdf:about="http://dbpedia.org/resource/">
         <dbo:abstract xml:lang="es"> es un servicio de alojamiento de imágenes con sede en Toronto fundado por Oleg Gutsol y Evgeny Tchebotarev el 31 de octubre de 2001. Inicialmente el sitio solo tuvo 1.000 usuarios en 2009, pero se expandió y contaba con más de 85.000 en junio de 2011. En ese mismo mes la startup anunció una ronda de financiación de 525.000 dólares con financiación de High Line Venture Capital, Deep Creek Capital y ff Venture Capital. Para octubre de 2011 los usuarios del sitio habían crecido hasta los 3 millones.</dbo:abstract>
         <rdfs:comment xml:lang="es"> es un servicio de alojamiento de imágenes con sede en Toronto fundado por Oleg Gutsol y Evgeny Tchebotarev el 31 de octubre de 2001. Inicialmente el sitio solo tuvo 1.000 usuarios en 2009, pero se expandió y contaba con más de 85.000 en junio de 2011. En ese mismo mes la startup anunció una ronda de financiación de 525.000 dólares con financiación de High Line Venture Capital, Deep Creek Capital y ff Venture Capital. Para octubre de 2011 los usuarios del sitio habían crecido hasta los 3 millones.</rdfs:comment>
-        <dbo:abstract xml:lang="en"> (pronounced &quot;five hundred px&quot;) is a Canadian online community and marketplace based on photography, co-founded by Oleg Gutsol and Evgeny Tchebotarev (artistically also known as “Ian Sobolev”) on Halloween 2009. The Toronto-based startup launched its Web 2.0 version in 2009 and is aimed at aspiring and professional photographers; encouraging members to upload their best work. In August 2015, the company launched a new version of its iOS app.  is seen as a place to gain exposure, find inspiration and connect photographers with one another. As of January 2016, the site had 7 million users.</dbo:abstract>
         <rdfs:comment xml:lang="de"> (ausgesprochen: „five hundred pixels“) ist eine am 31. Oktober 2009 von Oleg Gutsol und Evgeny Tchebotarev (Künstlername: „Ian Sobolev“) gegründete Online-Fotocommunity. Das in Toronto ansässige Unternehmen ist darauf ausgelegt, Profi- und ambitionierte Amateurfotografen zu ermuntern, ihre besten Werke hochzuladen.  wird als Plattform zur Darstellung ihrer Werke, zur Inspiration und zur Kontaktaufnahme zu anderen Fotografen gesehen. Aktuell werden ca. 2,5 Millionen eingetragene Benutzer und monatlich mehr als 10 Millionen aktive Nutzer verzeichnet.</rdfs:comment>
+        <dbo:abstract xml:lang="en"> (pronounced &quot;five hundred px&quot;) is a Canadian online community and marketplace based on photography, co-founded by Oleg Gutsol and Evgeny Tchebotarev (artistically also known as “Ian Sobolev”) on Halloween 2009. The Toronto-based startup launched its Web 2.0 version in 2009 and is aimed at aspiring and professional photographers; encouraging members to upload their best work. In August 2015, the company launched a new version of its iOS app.  is seen as a place to gain exposure, find inspiration and connect photographers with one another. As of January 2016, the site had 7 million users.</dbo:abstract>
         <rdfs:comment xml:lang="fr"> est un site Web de partage de photos. Il est basé à Toronto et a été créé par Oleg Gutsol et Evgeny Tchebotarev le 31 octobre 2009.</rdfs:comment>
         <rdfs:comment xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (يناير 2016)  هو موقع لمشاركة الصور، تأسس عام 2009 بتقنية ويب 2.0، و علي الموقع حاليا 2.5 مليون مستخدم مسجل</rdfs:comment>
         <dbo:abstract xml:lang="nl"> (uitgesproken als &quot;vijfhonderd pixels&quot;) is een online fotografie-gemeenschap opgericht door Oleg Gutsol en Evgeny Tchebotarev. Het bedrijf werd in 2003 opgericht in Toronto maar kreeg pas grote bekendheid toen het in 2009 met een ingrijpend vernieuwde website kwam. De doelgroep van  bestaat voornamelijk uit hobby- en professionele fotografen. Leden worden aangemoedigd hun beste werk te uploaden. De bedoeling achter  is enerzijds het bieden van een plek voor fotografen om hun werk tentoon te stellen en anderzijds om inspiratie op te doen en onderlinge contacten te leggen.</dbo:abstract>
@@ -1629,8 +2062,8 @@
         <rdfs:comment xml:lang="ja">（ファイブハンドレッドピクセル、five hundred pixels）とはオンライン写真コミュニティで写真撮影に関して趣味かプロフェッショナルの人たちが自身の最も良い写真をアップロードすることを奨励することを目的に、オレグ・ガットソル(Oleg Gutsol)とエフゲニー・トチェボタレフ（Evgeny Tchebotarev、イアン・ソボレフ(Ian Sobolev)としても知られる）が共同で、2009年にトロントでWeb 2.0ベンチャーとして設立した。 写真を公開し、インスピレーションを探したり他の写真家を繋がるための場所と見なされており、6000万枚以上の写真が投稿されている。また、最も使われているカメラはキヤノン EOS 5D Mark IIである。</rdfs:comment>
         <rdfs:comment xml:lang="nl"> (uitgesproken als &quot;vijfhonderd pixels&quot;) is een online fotografie-gemeenschap opgericht door Oleg Gutsol en Evgeny Tchebotarev. Het bedrijf werd in 2003 opgericht in Toronto maar kreeg pas grote bekendheid toen het in 2009 met een ingrijpend vernieuwde website kwam. De doelgroep van  bestaat voornamelijk uit hobby- en professionele fotografen. Leden worden aangemoedigd hun beste werk te uploaden. De bedoeling achter  is enerzijds het bieden van een plek voor fotografen om hun werk tentoon te stellen en anderzijds om inspiratie op te doen en onderlinge contacten te leggen.</rdfs:comment>
         <rdfs:comment xml:lang="ru">.com — ресурс фотохостинга для фотографического сообщества творческих людей со всего мира.</rdfs:comment>
-        <dbo:abstract xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (يناير 2016)  هو موقع لمشاركة الصور، تأسس عام 2009 بتقنية ويب 2.0، و علي الموقع حاليا 2.5 مليون مستخدم مسجل</dbo:abstract>
         <dbo:abstract xml:lang="fr"> est un site Web de partage de photos. Il est basé à Toronto et a été créé par Oleg Gutsol et Evgeny Tchebotarev le 31 octobre 2009.</dbo:abstract>
+        <dbo:abstract xml:lang="ar">25بك المحتوى هنا ينقصه الاستشهاد بمصادر. يرجى إيراد مصادر موثوق بها. أي معلومات غير موثقة يمكن التشكيك بها وإزالتها. (يناير 2016)  هو موقع لمشاركة الصور، تأسس عام 2009 بتقنية ويب 2.0، و علي الموقع حاليا 2.5 مليون مستخدم مسجل</dbo:abstract>
         <dbo:abstract xml:lang="ru">.com — ресурс фотохостинга для фотографического сообщества творческих людей со всего мира.</dbo:abstract>
         <dbo:abstract xml:lang="de"> (ausgesprochen: „five hundred pixels“) ist eine am 31. Oktober 2009 von Oleg Gutsol und Evgeny Tchebotarev (Künstlername: „Ian Sobolev“) gegründete Online-Fotocommunity. Das in Toronto ansässige Unternehmen ist darauf ausgelegt, Profi- und ambitionierte Amateurfotografen zu ermuntern, ihre besten Werke hochzuladen.  wird als Plattform zur Darstellung ihrer Werke, zur Inspiration und zur Kontaktaufnahme zu anderen Fotografen gesehen. Aktuell werden ca. 2,5 Millionen eingetragene Benutzer und monatlich mehr als 10 Millionen aktive Nutzer verzeichnet.</dbo:abstract>
         <rdfs:comment xml:lang="zh">是一个专业摄影师图片社区，在2003年于加拿大创建，为大家分享和发现精彩的照片，寻找优秀的摄影人才，找到志同道合的朋友。网站提供有免费和付费两种账户，摄影师可以在这里出售自己的照片，喜欢的用户可以进行购买。不是flickr类型的图库，也不是无忌这样的论坛，它注重于图片质量而不是数量。</rdfs:comment>
