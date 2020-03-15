@@ -3,7 +3,7 @@
     <uri id="Imports Wizard Entry" name="http://nr.inria.fr/ludo/v1" uri="http://ns.inria.fr/ludo/"/>
     <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/joshuakirtz/ontologies/2017/6/untitled-ontology-2" uri="https://raw.githubusercontent.com/LUDES-PESC/GameOntology/master/gameMechanicsOntology.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1584136352861" name="duplicate:http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology" uri="boardgame_v2.owl"/>
-        <uri id="Automatically generated entry, Timestamp=1584136352861" name="duplicate:http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology" uri="boardgame.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1584209139011" name="duplicate:http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology" uri="boardgame_v2.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1584209139011" name="duplicate:http://www.semanticweb.org/gioelemasini/ontologies/boardgame-ontology" uri="boardgame.owl"/>
     </group>
 </catalog>
